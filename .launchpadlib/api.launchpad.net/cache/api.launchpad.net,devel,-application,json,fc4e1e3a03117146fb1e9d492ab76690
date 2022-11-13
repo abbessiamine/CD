@@ -1,0 +1,16 @@
+status: 200
+date: Sun, 13 Nov 2022 01:54:34 GMT
+server: Apache/2.4.18 (Ubuntu)
+content-location: index.json
+vary: negotiate,accept,Accept-Encoding
+tcn: choice
+last-modified: Thu, 27 Oct 2022 04:11:00 GMT
+etag: "8fa-5ebfc542bdd00-gzip"
+accept-ranges: bytes
+content-length: 2298
+content-type: application/json
+-content-encoding: gzip
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"questions_collection_link": "https://api.launchpad.net/devel/questions", "bug_trackers_collection_link": "https://api.launchpad.net/devel/bugs/bugtrackers", "countries_collection_link": "https://api.launchpad.net/devel/+countries", "snap_bases_collection_link": "https://api.launchpad.net/devel/+snap-bases", "services_link": "https://api.launchpad.net/devel/services", "packagesets_collection_link": "https://api.launchpad.net/devel/package-sets", "polls_collection_link": "https://api.launchpad.net/devel/+polls", "builders_collection_link": "https://api.launchpad.net/devel/builders", "projects_collection_link": "https://api.launchpad.net/devel/projects", "project_groups_collection_link": "https://api.launchpad.net/devel/projectgroups", "charm_bases_collection_link": "https://api.launchpad.net/devel/+charm-bases", "resource_type_link": "https://api.launchpad.net/devel/#service-root", "distributions_collection_link": "https://api.launchpad.net/devel/distros", "people_collection_link": "https://api.launchpad.net/devel/people", "bugs_collection_link": "https://api.launchpad.net/devel/bugs", "charm_recipes_collection_link": "https://api.launchpad.net/devel/+charm-recipes", "languages_collection_link": "https://api.launchpad.net/devel/+languages", "processors_collection_link": "https://api.launchpad.net/devel/+processors", "snappy_serieses_collection_link": "https://api.launchpad.net/devel/+snappy-series", "temporary_blobs_collection_link": "https://api.launchpad.net/devel/temporary-blobs", "specifications_collection_link": "https://api.launchpad.net/devel/", "translation_groups_collection_link": "https://api.launchpad.net/devel/+groups", "cves_collection_link": "https://api.launchpad.net/devel/bugs/cve", "me_link": "https://api.launchpad.net/devel/people/+me", "snaps_collection_link": "https://api.launchpad.net/devel/+snaps", "git_repositories_collection_link": "https://api.launchpad.net/devel/+git", "branches_collection_link": "https://api.launchpad.net/devel/branches", "livefses_collection_link": "https://api.launchpad.net/devel/livefses", "translation_import_queue_entries_collection_link": "https://api.launchpad.net/devel/+imports", "archives_collection_link": "https://api.launchpad.net/devel/archives", "pillars_link": "https://api.launchpad.net/devel/pillars"}

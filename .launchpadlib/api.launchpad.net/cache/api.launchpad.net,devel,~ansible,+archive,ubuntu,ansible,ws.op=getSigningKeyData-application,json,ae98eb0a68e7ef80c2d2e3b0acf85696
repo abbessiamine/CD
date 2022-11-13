@@ -1,0 +1,22 @@
+status: 200
+date: Sun, 13 Nov 2022 01:54:35 GMT
+server: gunicorn/19.8.1
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: 83f7123b02a2b50a64bc29e7e35197179a885279
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: 83f7123b02a2b50a64bc29e7e35197179a885279
+x-request-id: 201dbeb0-4048-4719-9c4f-82b45555bdb7
+content-length: 1664
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~ansible/+archive/ubuntu/ansible?ws.op=getSigningKeyData
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+"-----BEGIN PGP PUBLIC KEY BLOCK-----\nVersion: GnuPG v2\n\nmQINBFOXbTABEADKLcY3MYZyHIiCEu8cQ+0UzxZolTYZf8xZ06/d8xzUW/UBPTLV\nx/40IzWJEZU87GCYVXUhdYXECrFQKQOOEWQswBxOt26/g0nIrU0edZ9cCZ9o9+ZO\nsKDcScWNxWeclLr2+YHdmX9eph+2p+zIPmhNJaaWV6/bSo1fBi7ganZFRAc13zO8\njtQsYyIeoAFwjt1vbk9CifdFhEchRVbwvZYhZDWfBZjhZ15UOunjo47gEkpK0PsW\nHY5N3/c75pGMwMTCjHMKno6KFzhdKLaz/QgbNnpy1aMkA/LITeU6Pgg6iqofrSY3\nFx73MCAb8EEytvSV/65wztKzexHjGYxhm5ygoET5tPyXciX0+XzojkZAHzUEeT5z\n4kgL6OLyn+JQAyRDNnOJEkYmvwQveZuUjsYUkgc5DJdg6w7lTgQHWObOENpXls3B\nDnphA4DJyc0PQODCxdSZo4ZXMLn5lE/0qvAJ6g/wntY/ee/vRKwy9iDMOWQvihTI\nY/L70/TnE4qZdaNbOJEvW59LT6GBTrcU1MX2fS5hU/mQa2CNixSVZG98rba3tfNa\nLDDNqivkcxtWryEWd0giBzzUS+MhtxhHm77YgxNVyyFn8bXb25/W+Jq+VvWWx2KD\n3ZwVD37X8wIBRLVozoH0jHVW7jKTnf2z+D6FCM+pVlm8zV1upXbHbdaRqwARAQAB\ntB9MYXVuY2hwYWQgUFBBIGZvciBBbnNpYmxlLCBJbmMuiQI4BBMBAgAiBQJTl20w\nAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRCTxKP9e7nDZwzdD/9yFq+3\nptLyWP1JN3RXsvTIJLhhjOqMMJCOocV0G3slHeUtdIDmvd2RaS8PeFNSd9QFbUzk\na7pBXec3a7kgEVorty2/+cZSpEVHT26oAbJnoH7E1YGii8bbnk9LqOCF/nLpasEq\nPKqtVzXz+vGB7G0ox8qmRm6JynrMeLBftYemxJ8e4fii6APJxE6FPz/AvgcN3BtB\nguseFwcga6lGcmp0JLofGhTbejfS9dW9bnCFJBtRfzUVd+Cb8aYuzV5zgCJgqOBJ\nHf0L6xDwn8UuzRfi0MWzEskuC/KxUJqVHMuTaLdrSeP1/czompetbsSHTfDklf/p\n4EbSM9VqZFiKr17we0LdigAEv2JnL2Qj0oN3eRNU0sDJ3kZvh5qhnteNgSRM/el0\nSly+34CRZzX25vd+pOTgwK6VFx3wvWfqn3pVNT9ASNalhogFXuBY2ukYJaiUTPsS\nR4+KHiD3eIhWyayBGP+GRvGb5dVC29k4CjLvQM9lISmZrrxGmMGoV9S1dh7siZYE\nCaVW0nKI95d6bBHaKH1g5HJ7NEsVTwf8LRY/FFpLsEPVw4HNVqqqwhuJnSW70WQ3\nblh0RIX/+z9hAla+M0kix7r0lS89ZBdTgwPuiCrkPRpoxi06ah/Q62uP3ZN4+dew\n1sBZdaC9kaKdOOWTqArVnaPObQgUUJFhY9wUsA==\n=qlCh\n-----END PGP PUBLIC KEY BLOCK-----\n"
