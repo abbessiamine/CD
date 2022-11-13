@@ -1,0 +1,22 @@
+status: 200
+date: Sun, 13 Nov 2022 01:54:34 GMT
+server: gunicorn/19.8.1
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: 83f7123b02a2b50a64bc29e7e35197179a885279
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: 83f7123b02a2b50a64bc29e7e35197179a885279
+x-request-id: d87f52b0-30ea-481c-9ce2-261d15174a1b
+content-length: 1751
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~ansible?name=%22ansible%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~ansible/+archive/ubuntu/ansible", "web_link": "https://launchpad.net/~ansible/+archive/ubuntu/ansible", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~ansible", "name": "ansible", "displayname": "ansible", "reference": "~ansible/ubuntu/ansible", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~ansible/+archive/ubuntu/ansible/dependencies", "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications\u2014 automate in a language that approaches plain English, using SSH, with no agents to install on remote systems.\n\nhttp://ansible.com/\n\nIf you face any issues while installing Ansible PPA, file an issue here:\nhttps://github.com/ansible-community/ppa/issues", "signing_key_fingerprint": "6125E2A8C77F2818FB7BD15B93C4A3FD7BB9C367", "require_virtualized": true, "build_debug_symbols": false, "publish_debug_symbols": false, "permit_obsolete_series_uploads": false, "authorized_size": 2048, "status": "Active", "external_dependencies": null, "processors_collection_link": "https://api.launchpad.net/devel/~ansible/+archive/ubuntu/ansible/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~ansible/+archive/ubuntu/ansible/enabled_restricted_processors", "publish": true, "relative_build_score": 0, "http_etag": "\"ca8a658407d4ee6fd9af98d943272da8dca15d9a-f22e7f584d27c2b82a4ec0031131ad706fdcc6a3\""}

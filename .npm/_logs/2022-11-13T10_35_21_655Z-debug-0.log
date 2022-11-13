@@ -1,0 +1,1812 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.1.1
+2 info using node@v16.18.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 14ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 7ms
+6 timing config:load:builtin Completed in 12ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/amine/MyApp/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/root/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 31ms
+17 timing npm:load:configload Completed in 32ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install" "--ignore-scripts"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 2ms
+24 timing npm:load:display Completed in 3ms
+25 verbose logfile logs-max:10 dir:/root/.npm/_logs/2022-11-13T10_35_21_655Z-
+26 verbose logfile /root/.npm/_logs/2022-11-13T10_35_21_655Z-debug-0.log
+27 timing npm:load:logFile Completed in 4ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 40ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 0ms
+33 timing arborist:ctor Completed in 1ms
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 2325ms
+36 timing idealTree:userRequests Completed in 1ms
+37 silly idealTree buildDeps
+38 silly fetch manifest @angular/animations@^14.2.0
+39 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 5902ms (cache revalidated)
+40 silly fetch manifest @angular/core@^14.2.0
+41 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 199ms (cache revalidated)
+42 silly fetch manifest rxjs@~7.5.0
+43 http fetch GET 200 https://registry.npmjs.org/rxjs 195ms (cache revalidated)
+44 silly fetch manifest zone.js@~0.11.4
+45 http fetch GET 200 https://registry.npmjs.org/zone.js 412ms (cache revalidated)
+46 silly fetch manifest @angular/common@^14.2.0
+47 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 963ms (cache revalidated)
+48 silly fetch manifest @angular/compiler@^14.2.0
+49 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 173ms (cache revalidated)
+50 silly fetch manifest @angular-devkit/build-angular@^14.2.9
+51 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-angular 511ms (cache revalidated)
+52 silly fetch manifest @angular/compiler-cli@^14.2.0
+53 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 223ms (cache revalidated)
+54 silly fetch manifest typescript@~4.7.2
+55 http fetch GET 200 https://registry.npmjs.org/typescript 258ms (cache revalidated)
+56 silly fetch manifest @angular/localize@^14.0.0
+57 http fetch GET 200 https://registry.npmjs.org/@angular%2flocalize 126ms (cache revalidated)
+58 silly fetch manifest @angular/service-worker@^14.0.0
+59 http fetch GET 200 https://registry.npmjs.org/@angular%2fservice-worker 233ms (cache revalidated)
+60 silly fetch manifest karma@~6.4.0
+61 http fetch GET 200 https://registry.npmjs.org/karma 146ms (cache revalidated)
+62 silly fetch manifest ng-packagr@^14.0.0
+63 http fetch GET 200 https://registry.npmjs.org/ng-packagr 673ms (cache revalidated)
+64 silly fetch manifest tslib@^2.3.0
+65 http fetch GET 200 https://registry.npmjs.org/tslib 303ms (cache revalidated)
+66 silly fetch manifest protractor@^7.0.0
+67 http fetch GET 200 https://registry.npmjs.org/protractor 308ms (cache revalidated)
+68 silly fetch manifest tailwindcss@^2.0.0 || ^3.0.0
+69 http fetch GET 200 https://registry.npmjs.org/tailwindcss 234ms (cache revalidated)
+70 silly placeDep ROOT @angular-devkit/build-angular@14.2.9 REPLACE for: my-app@0.0.0 want: ^14.2.9
+71 silly placeDep ROOT @angular/compiler-cli@14.2.10 OK for: @angular-devkit/build-angular@14.2.9 want: ^14.0.0
+72 silly placeDep ROOT @angular/compiler@14.2.10 REPLACE for: @angular/compiler-cli@14.2.10 want: 14.2.10
+73 silly placeDep ROOT typescript@4.7.4 OK for: @angular/compiler-cli@14.2.10 want: >=4.6.2 <4.9
+74 silly placeDep ROOT @angular/animations@14.2.10 REPLACE for: my-app@0.0.0 want: ^14.2.0
+75 silly placeDep ROOT @angular/common@14.2.10 REPLACE for: my-app@0.0.0 want: ^14.2.0
+76 silly placeDep ROOT zone.js@0.11.8 REPLACE for: my-app@0.0.0 want: ~0.11.4
+77 silly fetch manifest @babel/core@7.18.10
+78 silly fetch manifest loader-utils@3.2.0
+79 silly fetch manifest tslib@2.4.0
+80 silly fetch manifest webpack@5.74.0
+81 silly fetch manifest @babel/core@^7.17.2
+82 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 112ms (cache revalidated)
+83 http fetch GET 200 https://registry.npmjs.org/webpack 300ms (cache revalidated)
+84 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 341ms (cache revalidated)
+85 http fetch GET 200 https://registry.npmjs.org/loader-utils 1209ms (cache revalidated)
+86 timing idealTree:#root Completed in 12482ms
+87 silly placeDep ROOT @babel/core@7.18.10 OK for: @angular-devkit/build-angular@14.2.9 want: 7.18.10
+88 silly placeDep ROOT loader-utils@3.2.0 OK for: @angular-devkit/build-angular@14.2.9 want: 3.2.0
+89 silly placeDep node_modules/@angular-devkit/build-angular tslib@2.4.0 OK for: @angular-devkit/build-angular@14.2.9 want: 2.4.0
+90 silly placeDep ROOT webpack@5.74.0 OK for: @angular-devkit/build-angular@14.2.9 want: 5.74.0
+91 silly fetch manifest @babel/types@^7.18.10
+92 silly fetch manifest semver@^6.3.0
+93 silly fetch manifest schema-utils@^3.1.0
+94 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 32ms (cache hit)
+95 http fetch GET 200 https://registry.npmjs.org/schema-utils 26ms (cache hit)
+96 http fetch GET 200 https://registry.npmjs.org/semver 307ms (cache revalidated)
+97 timing idealTree:node_modules/@angular-devkit/build-angular Completed in 350ms
+98 timing idealTree:node_modules/@angular/animations Completed in 1ms
+99 timing idealTree:node_modules/@angular/common Completed in 0ms
+100 timing idealTree:node_modules/@angular/compiler Completed in 0ms
+101 timing idealTree:node_modules/@angular/compiler-cli Completed in 0ms
+102 timing idealTree:node_modules/@angular/core Completed in 0ms
+103 timing idealTree:node_modules/@angular/forms Completed in 0ms
+104 timing idealTree:node_modules/@angular/platform-browser Completed in 0ms
+105 timing idealTree:node_modules/@angular/platform-browser-dynamic Completed in 0ms
+106 timing idealTree:node_modules/@angular/router Completed in 0ms
+107 silly placeDep node_modules/@babel/core @babel/types@7.20.2 OK for: @babel/core@7.18.10 want: ^7.18.10
+108 silly placeDep node_modules/@babel/core semver@6.3.0 OK for: @babel/core@7.18.10 want: ^6.3.0
+109 timing idealTree:node_modules/@babel/core Completed in 4ms
+110 silly fetch manifest debug@2.6.9
+111 http fetch GET 200 https://registry.npmjs.org/debug 212ms (cache revalidated)
+112 silly placeDep node_modules/body-parser debug@2.6.9 REPLACE for: body-parser@1.20.1 want: 2.6.9
+113 silly fetch manifest ms@2.0.0
+114 http fetch GET 200 https://registry.npmjs.org/ms 12ms (cache hit)
+115 timing idealTree:node_modules/body-parser Completed in 235ms
+116 silly fetch manifest unique-filename@^1.1.1
+117 http fetch GET 200 https://registry.npmjs.org/unique-filename 20ms (cache hit)
+118 silly placeDep node_modules/cacache unique-filename@1.1.1 OK for: cacache@16.1.2 want: ^1.1.1
+119 timing idealTree:node_modules/cacache Completed in 23ms
+120 silly fetch manifest fsevents@~2.3.2
+121 http fetch GET 200 https://registry.npmjs.org/fsevents 5ms (cache hit)
+122 silly placeDep node_modules/chokidar fsevents@2.3.2 OK for: chokidar@3.5.3 want: ~2.3.2
+123 timing idealTree:node_modules/chokidar Completed in 7ms
+124 silly placeDep node_modules/connect debug@2.6.9 REPLACE for: connect@3.7.0 want: 2.6.9
+125 timing idealTree:node_modules/connect Completed in 6ms
+126 silly fetch manifest on-finished@~2.3.0
+127 http fetch GET 200 https://registry.npmjs.org/on-finished 11ms (cache hit)
+128 silly placeDep node_modules/finalhandler debug@2.6.9 REPLACE for: finalhandler@1.1.2 want: 2.6.9
+129 silly placeDep node_modules/finalhandler on-finished@2.3.0 REPLACE for: finalhandler@1.1.2 want: ~2.3.0
+130 timing idealTree:node_modules/finalhandler Completed in 20ms
+131 silly fetch manifest statuses@2.0.1
+132 http fetch GET 200 https://registry.npmjs.org/statuses 8ms (cache hit)
+133 silly placeDep node_modules/http-errors statuses@2.0.1 REPLACE for: http-errors@2.0.0 want: 2.0.1
+134 timing idealTree:node_modules/http-errors Completed in 10ms
+135 silly placeDep node_modules/istanbul-lib-instrument semver@6.3.0 REPLACE for: istanbul-lib-instrument@5.2.1 want: ^6.3.0
+136 timing idealTree:node_modules/istanbul-lib-instrument Completed in 5ms
+137 silly fetch manifest make-dir@^3.0.0
+138 http fetch GET 200 https://registry.npmjs.org/make-dir 8ms (cache hit)
+139 silly placeDep node_modules/istanbul-lib-report make-dir@3.1.0 OK for: istanbul-lib-report@3.0.0 want: ^3.0.0
+140 silly fetch manifest semver@^6.0.0
+141 timing idealTree:node_modules/istanbul-lib-report Completed in 11ms
+142 silly fetch manifest source-map@^0.6.1
+143 http fetch GET 200 https://registry.npmjs.org/source-map 280ms (cache revalidated)
+144 silly placeDep node_modules/istanbul-lib-source-maps source-map@0.6.1 REPLACE for: istanbul-lib-source-maps@4.0.1 want: ^0.6.1
+145 timing idealTree:node_modules/istanbul-lib-source-maps Completed in 297ms
+146 silly fetch manifest mkdirp@^0.5.5
+147 http fetch GET 200 https://registry.npmjs.org/mkdirp 192ms (cache revalidated)
+148 silly fetch manifest tmp@^0.2.1
+149 http fetch GET 200 https://registry.npmjs.org/tmp 136ms (cache revalidated)
+150 silly fetch manifest yargs@^16.1.1
+151 http fetch GET 200 https://registry.npmjs.org/yargs 97ms (cache revalidated)
+152 silly placeDep node_modules/karma mkdirp@0.5.6 REPLACE for: karma@6.4.1 want: ^0.5.5
+153 silly placeDep node_modules/karma source-map@0.6.1 REPLACE for: karma@6.4.1 want: ^0.6.1
+154 silly placeDep node_modules/karma tmp@0.2.1 REPLACE for: karma@6.4.1 want: ^0.2.1
+155 silly placeDep node_modules/karma yargs@16.2.0 REPLACE for: karma@6.4.1 want: ^16.1.1
+156 silly fetch manifest yargs-parser@^20.2.2
+157 http fetch GET 200 https://registry.npmjs.org/yargs-parser 11ms (cache hit)
+158 timing idealTree:node_modules/karma Completed in 475ms
+159 timing idealTree:node_modules/loader-utils Completed in 0ms
+160 timing idealTree:node_modules/typescript Completed in 0ms
+161 silly placeDep node_modules/webpack schema-utils@3.1.1 OK for: webpack@5.74.0 want: ^3.1.0
+162 silly fetch manifest ajv@^6.12.5
+163 silly fetch manifest ajv-keywords@^3.5.2
+164 http fetch GET 200 https://registry.npmjs.org/ajv 10ms (cache hit)
+165 http fetch GET 200 https://registry.npmjs.org/ajv-keywords 14ms (cache hit)
+166 timing idealTree:node_modules/webpack Completed in 17ms
+167 timing idealTree:node_modules/zone.js Completed in 0ms
+168 timing idealTree:node_modules/@angular-devkit/build-angular/node_modules/tslib Completed in 0ms
+169 timing idealTree:node_modules/@babel/core/node_modules/@babel/types Completed in 0ms
+170 timing idealTree:node_modules/@babel/core/node_modules/semver Completed in 0ms
+171 silly placeDep node_modules/body-parser ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+172 timing idealTree:node_modules/body-parser/node_modules/debug Completed in 1ms
+173 timing idealTree:node_modules/body-parser/node_modules/ms Completed in 0ms
+174 timing idealTree:node_modules/cacache/node_modules/unique-filename Completed in 0ms
+175 timing idealTree:node_modules/chokidar/node_modules/fsevents Completed in 0ms
+176 silly placeDep node_modules/connect ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+177 timing idealTree:node_modules/connect/node_modules/debug Completed in 1ms
+178 timing idealTree:node_modules/connect/node_modules/ms Completed in 0ms
+179 silly placeDep node_modules/finalhandler ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+180 timing idealTree:node_modules/finalhandler/node_modules/debug Completed in 8ms
+181 timing idealTree:node_modules/finalhandler/node_modules/ms Completed in 0ms
+182 timing idealTree:node_modules/finalhandler/node_modules/on-finished Completed in 0ms
+183 timing idealTree:node_modules/http-errors/node_modules/statuses Completed in 0ms
+184 timing idealTree:node_modules/istanbul-lib-instrument/node_modules/semver Completed in 0ms
+185 silly placeDep node_modules/istanbul-lib-report semver@6.3.0 OK for: make-dir@3.1.0 want: ^6.0.0
+186 timing idealTree:node_modules/istanbul-lib-report/node_modules/make-dir Completed in 1ms
+187 timing idealTree:node_modules/istanbul-lib-report/node_modules/semver Completed in 0ms
+188 timing idealTree:node_modules/istanbul-lib-source-maps/node_modules/source-map Completed in 0ms
+189 timing idealTree:node_modules/karma/node_modules/mkdirp Completed in 0ms
+190 timing idealTree:node_modules/karma/node_modules/source-map Completed in 0ms
+191 timing idealTree:node_modules/karma/node_modules/tmp Completed in 0ms
+192 silly placeDep node_modules/karma yargs-parser@20.2.9 OK for: yargs@16.2.0 want: ^20.2.2
+193 timing idealTree:node_modules/karma/node_modules/yargs Completed in 1ms
+194 timing idealTree:node_modules/karma/node_modules/yargs-parser Completed in 0ms
+195 silly placeDep node_modules/webpack ajv@6.12.6 OK for: schema-utils@3.1.1 want: ^6.12.5
+196 silly placeDep node_modules/webpack ajv-keywords@3.5.2 OK for: schema-utils@3.1.1 want: ^3.5.2
+197 silly fetch manifest json-schema-traverse@^0.4.1
+198 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 2ms (cache hit)
+199 timing idealTree:node_modules/webpack/node_modules/schema-utils Completed in 13ms
+200 silly placeDep node_modules/webpack json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+201 timing idealTree:node_modules/webpack/node_modules/ajv Completed in 1ms
+202 timing idealTree:node_modules/webpack/node_modules/ajv-keywords Completed in 0ms
+203 timing idealTree:node_modules/webpack/node_modules/json-schema-traverse Completed in 0ms
+204 timing idealTree:buildDeps Completed in 13974ms
+205 timing idealTree:fixDepFlags Completed in 15ms
+206 timing idealTree Completed in 16343ms
+207 timing reify:loadTrees Completed in 16344ms
+208 timing reify:diffTrees Completed in 19ms
+209 silly reify mark retired [ '/home/amine/MyApp/node_modules/fsevents' ]
+210 silly reify mark retired [ '/home/amine/MyApp/node_modules/loader-utils' ]
+211 silly reify mark retired [ '/home/amine/MyApp/node_modules/make-dir/node_modules/semver' ]
+212 silly reify mark retired [ '/home/amine/MyApp/node_modules/typescript' ]
+213 silly reify mark retired [ '/home/amine/MyApp/node_modules/unique-filename' ]
+214 silly reify mark retired [ '/home/amine/MyApp/node_modules/webpack' ]
+215 silly reify mark retired [ '/home/amine/MyApp/node_modules/zone.js' ]
+216 silly reify mark retired [ '/home/amine/MyApp/node_modules/@angular/animations' ]
+217 silly reify mark retired [ '/home/amine/MyApp/node_modules/@angular/common' ]
+218 silly reify mark retired [ '/home/amine/MyApp/node_modules/@angular/compiler' ]
+219 silly reify mark retired [ '/home/amine/MyApp/node_modules/@angular/compiler-cli' ]
+220 silly reify mark retired [ '/home/amine/MyApp/node_modules/@angular-devkit/build-angular' ]
+221 silly reify mark retired [ '/home/amine/MyApp/node_modules/@babel/core' ]
+222 silly reify mark retired [
+222 silly reify   '/home/amine/MyApp/node_modules/acorn',
+222 silly reify   '/home/amine/MyApp/node_modules/.bin/acorn'
+222 silly reify ]
+223 silly reify mark retired [ '/home/amine/MyApp/node_modules/ajv-keywords' ]
+224 silly reify mark retired [
+224 silly reify   '/home/amine/MyApp/node_modules/ansi-html-community',
+224 silly reify   '/home/amine/MyApp/node_modules/.bin/ansi-html'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   '/home/amine/MyApp/node_modules/autoprefixer',
+225 silly reify   '/home/amine/MyApp/node_modules/.bin/autoprefixer'
+225 silly reify ]
+226 silly reify mark retired [ '/home/amine/MyApp/node_modules/big.js' ]
+227 silly reify mark retired [ '/home/amine/MyApp/node_modules/body-parser/node_modules/debug' ]
+228 silly reify mark retired [ '/home/amine/MyApp/node_modules/body-parser/node_modules/ms' ]
+229 silly reify mark retired [
+229 silly reify   '/home/amine/MyApp/node_modules/browserslist',
+229 silly reify   '/home/amine/MyApp/node_modules/.bin/browserslist'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   '/home/amine/MyApp/node_modules/color-support',
+230 silly reify   '/home/amine/MyApp/node_modules/.bin/color-support'
+230 silly reify ]
+231 silly reify mark retired [ '/home/amine/MyApp/node_modules/compression/node_modules/ms' ]
+232 silly reify mark retired [ '/home/amine/MyApp/node_modules/connect/node_modules/debug' ]
+233 silly reify mark retired [ '/home/amine/MyApp/node_modules/connect/node_modules/ms' ]
+234 silly reify mark retired [ '/home/amine/MyApp/node_modules/core-util-is' ]
+235 silly reify mark retired [
+235 silly reify   '/home/amine/MyApp/node_modules/cross-spawn/node_modules/which',
+235 silly reify   '/home/amine/MyApp/node_modules/cross-spawn/node_modules/.bin/node-which'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/home/amine/MyApp/node_modules/css-blank-pseudo',
+236 silly reify   '/home/amine/MyApp/node_modules/.bin/css-blank-pseudo'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   '/home/amine/MyApp/node_modules/css-has-pseudo',
+237 silly reify   '/home/amine/MyApp/node_modules/.bin/css-has-pseudo'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   '/home/amine/MyApp/node_modules/css-prefers-color-scheme',
+238 silly reify   '/home/amine/MyApp/node_modules/.bin/css-prefers-color-scheme'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   '/home/amine/MyApp/node_modules/cssesc',
+239 silly reify   '/home/amine/MyApp/node_modules/.bin/cssesc'
+239 silly reify ]
+240 silly reify mark retired [ '/home/amine/MyApp/node_modules/emojis-list' ]
+241 silly reify mark retired [
+241 silly reify   '/home/amine/MyApp/node_modules/errno',
+241 silly reify   '/home/amine/MyApp/node_modules/.bin/errno'
+241 silly reify ]
+242 silly reify mark retired [
+242 silly reify   '/home/amine/MyApp/node_modules/esbuild',
+242 silly reify   '/home/amine/MyApp/node_modules/.bin/esbuild'
+242 silly reify ]
+243 silly reify mark retired [
+243 silly reify   '/home/amine/MyApp/node_modules/esprima',
+243 silly reify   '/home/amine/MyApp/node_modules/.bin/esparse',
+243 silly reify   '/home/amine/MyApp/node_modules/.bin/esvalidate'
+243 silly reify ]
+244 silly reify mark retired [ '/home/amine/MyApp/node_modules/express/node_modules/ms' ]
+245 silly reify mark retired [ '/home/amine/MyApp/node_modules/finalhandler/node_modules/debug' ]
+246 silly reify mark retired [ '/home/amine/MyApp/node_modules/finalhandler/node_modules/ms' ]
+247 silly reify mark retired [
+247 silly reify   '/home/amine/MyApp/node_modules/finalhandler/node_modules/on-finished'
+247 silly reify ]
+248 silly reify mark retired [ '/home/amine/MyApp/node_modules/hpack.js/node_modules/safe-buffer' ]
+249 silly reify mark retired [
+249 silly reify   '/home/amine/MyApp/node_modules/hpack.js/node_modules/string_decoder'
+249 silly reify ]
+250 silly reify mark retired [ '/home/amine/MyApp/node_modules/http-errors/node_modules/statuses' ]
+251 silly reify mark retired [
+251 silly reify   '/home/amine/MyApp/node_modules/image-size',
+251 silly reify   '/home/amine/MyApp/node_modules/.bin/image-size'
+251 silly reify ]
+252 silly reify mark retired [
+252 silly reify   '/home/amine/MyApp/node_modules/is-docker',
+252 silly reify   '/home/amine/MyApp/node_modules/.bin/is-docker'
+252 silly reify ]
+253 silly reify mark retired [ '/home/amine/MyApp/node_modules/isarray' ]
+254 silly reify mark retired [
+254 silly reify   '/home/amine/MyApp/node_modules/istanbul-lib-instrument/node_modules/semver'
+254 silly reify ]
+255 silly reify mark retired [
+255 silly reify   '/home/amine/MyApp/node_modules/istanbul-lib-source-maps/node_modules/source-map'
+255 silly reify ]
+256 silly reify mark retired [ '/home/amine/MyApp/node_modules/jest-worker/node_modules/has-flag' ]
+257 silly reify mark retired [
+257 silly reify   '/home/amine/MyApp/node_modules/js-yaml',
+257 silly reify   '/home/amine/MyApp/node_modules/.bin/js-yaml'
+257 silly reify ]
+258 silly reify mark retired [
+258 silly reify   '/home/amine/MyApp/node_modules/jsesc',
+258 silly reify   '/home/amine/MyApp/node_modules/.bin/jsesc'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   '/home/amine/MyApp/node_modules/json5',
+259 silly reify   '/home/amine/MyApp/node_modules/.bin/json5'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   '/home/amine/MyApp/node_modules/karma',
+260 silly reify   '/home/amine/MyApp/node_modules/.bin/karma'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   '/home/amine/MyApp/node_modules/less',
+261 silly reify   '/home/amine/MyApp/node_modules/.bin/lessc'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   '/home/amine/MyApp/node_modules/mime',
+262 silly reify   '/home/amine/MyApp/node_modules/.bin/mime'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   '/home/amine/MyApp/node_modules/mkdirp',
+263 silly reify   '/home/amine/MyApp/node_modules/.bin/mkdirp'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   '/home/amine/MyApp/node_modules/multicast-dns',
+264 silly reify   '/home/amine/MyApp/node_modules/.bin/multicast-dns'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   '/home/amine/MyApp/node_modules/nanoid',
+265 silly reify   '/home/amine/MyApp/node_modules/.bin/nanoid'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   '/home/amine/MyApp/node_modules/needle',
+266 silly reify   '/home/amine/MyApp/node_modules/.bin/needle'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   '/home/amine/MyApp/node_modules/node-gyp',
+267 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   '/home/amine/MyApp/node_modules/node-gyp-build',
+268 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp-build',
+268 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp-build-optional',
+268 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp-build-test'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   '/home/amine/MyApp/node_modules/nopt',
+269 silly reify   '/home/amine/MyApp/node_modules/.bin/nopt'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   '/home/amine/MyApp/node_modules/npm-packlist',
+270 silly reify   '/home/amine/MyApp/node_modules/.bin/npm-packlist'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   '/home/amine/MyApp/node_modules/pacote',
+271 silly reify   '/home/amine/MyApp/node_modules/.bin/pacote'
+271 silly reify ]
+272 silly reify mark retired [ '/home/amine/MyApp/node_modules/process-nextick-args' ]
+273 silly reify mark retired [
+273 silly reify   '/home/amine/MyApp/node_modules/regjsparser',
+273 silly reify   '/home/amine/MyApp/node_modules/.bin/regjsparser'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   '/home/amine/MyApp/node_modules/resolve',
+274 silly reify   '/home/amine/MyApp/node_modules/.bin/resolve'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   '/home/amine/MyApp/node_modules/rimraf',
+275 silly reify   '/home/amine/MyApp/node_modules/.bin/rimraf'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   '/home/amine/MyApp/node_modules/sass',
+276 silly reify   '/home/amine/MyApp/node_modules/.bin/sass'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   '/home/amine/MyApp/node_modules/schema-utils/node_modules/json-schema-traverse'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   '/home/amine/MyApp/node_modules/semver',
+278 silly reify   '/home/amine/MyApp/node_modules/.bin/semver'
+278 silly reify ]
+279 silly reify mark retired [
+279 silly reify   '/home/amine/MyApp/node_modules/send/node_modules/debug/node_modules/ms'
+279 silly reify ]
+280 silly reify mark retired [ '/home/amine/MyApp/node_modules/serve-index/node_modules/inherits' ]
+281 silly reify mark retired [ '/home/amine/MyApp/node_modules/serve-index/node_modules/ms' ]
+282 silly reify mark retired [
+282 silly reify   '/home/amine/MyApp/node_modules/serve-index/node_modules/setprototypeof'
+282 silly reify ]
+283 silly reify mark retired [ '/home/amine/MyApp/node_modules/serve-index/node_modules/depd' ]
+284 silly reify mark retired [
+284 silly reify   '/home/amine/MyApp/node_modules/stylus',
+284 silly reify   '/home/amine/MyApp/node_modules/.bin/stylus'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   '/home/amine/MyApp/node_modules/terser',
+285 silly reify   '/home/amine/MyApp/node_modules/.bin/terser'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/ajv'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/ajv-keywords'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/json-schema-traverse'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   '/home/amine/MyApp/node_modules/tree-kill',
+289 silly reify   '/home/amine/MyApp/node_modules/.bin/tree-kill'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   '/home/amine/MyApp/node_modules/update-browserslist-db',
+290 silly reify   '/home/amine/MyApp/node_modules/.bin/browserslist-lint'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   '/home/amine/MyApp/node_modules/uuid',
+291 silly reify   '/home/amine/MyApp/node_modules/.bin/uuid'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   '/home/amine/MyApp/node_modules/webpack-dev-server',
+292 silly reify   '/home/amine/MyApp/node_modules/.bin/webpack-dev-server'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   '/home/amine/MyApp/node_modules/which',
+293 silly reify   '/home/amine/MyApp/node_modules/.bin/which'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   '/home/amine/MyApp/node_modules/@angular/cli',
+294 silly reify   '/home/amine/MyApp/node_modules/.bin/ng'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   '/home/amine/MyApp/node_modules/@babel/parser',
+295 silly reify   '/home/amine/MyApp/node_modules/.bin/parser'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   '/home/amine/MyApp/node_modules/@babel/traverse/node_modules/@jridgewell/gen-mapping'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   '/home/amine/MyApp/node_modules/@npmcli/git/node_modules/which',
+297 silly reify   '/home/amine/MyApp/node_modules/@npmcli/git/node_modules/.bin/node-which'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   '/home/amine/MyApp/node_modules/@npmcli/installed-package-contents',
+298 silly reify   '/home/amine/MyApp/node_modules/.bin/installed-package-contents'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   '/home/amine/MyApp/node_modules/@npmcli/run-script/node_modules/which',
+299 silly reify   '/home/amine/MyApp/node_modules/@npmcli/run-script/node_modules/.bin/node-which'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   '/home/amine/MyApp/node_modules/esbuild-wasm',
+300 silly reify   '/home/amine/MyApp/node_modules/.bin/esbuild'
+300 silly reify ]
+301 silly reify moves {
+301 silly reify   '/home/amine/MyApp/node_modules/fsevents': '/home/amine/MyApp/node_modules/.fsevents-j9Djc5ph',
+301 silly reify   '/home/amine/MyApp/node_modules/loader-utils': '/home/amine/MyApp/node_modules/.loader-utils-1BP2fwQe',
+301 silly reify   '/home/amine/MyApp/node_modules/make-dir/node_modules/semver': '/home/amine/MyApp/node_modules/make-dir/node_modules/.semver-goUqOqe2',
+301 silly reify   '/home/amine/MyApp/node_modules/typescript': '/home/amine/MyApp/node_modules/.typescript-2LtTWANO',
+301 silly reify   '/home/amine/MyApp/node_modules/unique-filename': '/home/amine/MyApp/node_modules/.unique-filename-J1Xt7NR4',
+301 silly reify   '/home/amine/MyApp/node_modules/webpack': '/home/amine/MyApp/node_modules/.webpack-k5S7aakn',
+301 silly reify   '/home/amine/MyApp/node_modules/zone.js': '/home/amine/MyApp/node_modules/.zone.js-fZ4dxo6r',
+301 silly reify   '/home/amine/MyApp/node_modules/@angular/animations': '/home/amine/MyApp/node_modules/@angular/.animations-Nip2belv',
+301 silly reify   '/home/amine/MyApp/node_modules/@angular/common': '/home/amine/MyApp/node_modules/@angular/.common-gdRc3fAh',
+301 silly reify   '/home/amine/MyApp/node_modules/@angular/compiler': '/home/amine/MyApp/node_modules/@angular/.compiler-P3tpGuh0',
+301 silly reify   '/home/amine/MyApp/node_modules/@angular/compiler-cli': '/home/amine/MyApp/node_modules/@angular/.compiler-cli-T4VRhkoX',
+301 silly reify   '/home/amine/MyApp/node_modules/@angular-devkit/build-angular': '/home/amine/MyApp/node_modules/@angular-devkit/.build-angular-sOnOhd4l',
+301 silly reify   '/home/amine/MyApp/node_modules/@babel/core': '/home/amine/MyApp/node_modules/@babel/.core-AXOpsi9n',
+301 silly reify   '/home/amine/MyApp/node_modules/acorn': '/home/amine/MyApp/node_modules/.acorn-I8Vy4Kmi',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/acorn': '/home/amine/MyApp/node_modules/.bin/.acorn-ov9oWjAa',
+301 silly reify   '/home/amine/MyApp/node_modules/ajv-keywords': '/home/amine/MyApp/node_modules/.ajv-keywords-qGQN0FFw',
+301 silly reify   '/home/amine/MyApp/node_modules/ansi-html-community': '/home/amine/MyApp/node_modules/.ansi-html-community-dI4V4bL9',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/ansi-html': '/home/amine/MyApp/node_modules/.bin/.ansi-html-87qKX7zs',
+301 silly reify   '/home/amine/MyApp/node_modules/autoprefixer': '/home/amine/MyApp/node_modules/.autoprefixer-kihpx6in',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/autoprefixer': '/home/amine/MyApp/node_modules/.bin/.autoprefixer-mLjmNDUK',
+301 silly reify   '/home/amine/MyApp/node_modules/big.js': '/home/amine/MyApp/node_modules/.big.js-zY1cWBj4',
+301 silly reify   '/home/amine/MyApp/node_modules/body-parser/node_modules/debug': '/home/amine/MyApp/node_modules/body-parser/node_modules/.debug-wfXvxzAU',
+301 silly reify   '/home/amine/MyApp/node_modules/body-parser/node_modules/ms': '/home/amine/MyApp/node_modules/body-parser/node_modules/.ms-4fgsg7Yr',
+301 silly reify   '/home/amine/MyApp/node_modules/browserslist': '/home/amine/MyApp/node_modules/.browserslist-2FzQEZPI',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/browserslist': '/home/amine/MyApp/node_modules/.bin/.browserslist-6Dold1ud',
+301 silly reify   '/home/amine/MyApp/node_modules/color-support': '/home/amine/MyApp/node_modules/.color-support-pD8zAaIY',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/color-support': '/home/amine/MyApp/node_modules/.bin/.color-support-M1blCUNi',
+301 silly reify   '/home/amine/MyApp/node_modules/compression/node_modules/ms': '/home/amine/MyApp/node_modules/compression/node_modules/.ms-HHXL6p40',
+301 silly reify   '/home/amine/MyApp/node_modules/connect/node_modules/debug': '/home/amine/MyApp/node_modules/connect/node_modules/.debug-WoPl9Bz7',
+301 silly reify   '/home/amine/MyApp/node_modules/connect/node_modules/ms': '/home/amine/MyApp/node_modules/connect/node_modules/.ms-gZKI5rZz',
+301 silly reify   '/home/amine/MyApp/node_modules/core-util-is': '/home/amine/MyApp/node_modules/.core-util-is-FgBNqBZZ',
+301 silly reify   '/home/amine/MyApp/node_modules/cross-spawn/node_modules/which': '/home/amine/MyApp/node_modules/cross-spawn/node_modules/.which-Myj0Z2TL',
+301 silly reify   '/home/amine/MyApp/node_modules/cross-spawn/node_modules/.bin/node-which': '/home/amine/MyApp/node_modules/cross-spawn/node_modules/.bin/.node-which-eAo1w55f',
+301 silly reify   '/home/amine/MyApp/node_modules/css-blank-pseudo': '/home/amine/MyApp/node_modules/.css-blank-pseudo-s5vR4vQj',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/css-blank-pseudo': '/home/amine/MyApp/node_modules/.bin/.css-blank-pseudo-XqtYLryS',
+301 silly reify   '/home/amine/MyApp/node_modules/css-has-pseudo': '/home/amine/MyApp/node_modules/.css-has-pseudo-YALlAVP8',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/css-has-pseudo': '/home/amine/MyApp/node_modules/.bin/.css-has-pseudo-lvXTqBVh',
+301 silly reify   '/home/amine/MyApp/node_modules/css-prefers-color-scheme': '/home/amine/MyApp/node_modules/.css-prefers-color-scheme-9qyMdFnz',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/css-prefers-color-scheme': '/home/amine/MyApp/node_modules/.bin/.css-prefers-color-scheme-31bepLqE',
+301 silly reify   '/home/amine/MyApp/node_modules/cssesc': '/home/amine/MyApp/node_modules/.cssesc-iH2pnqdH',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/cssesc': '/home/amine/MyApp/node_modules/.bin/.cssesc-ToBNLkiD',
+301 silly reify   '/home/amine/MyApp/node_modules/emojis-list': '/home/amine/MyApp/node_modules/.emojis-list-Kg4ICJJu',
+301 silly reify   '/home/amine/MyApp/node_modules/errno': '/home/amine/MyApp/node_modules/.errno-WzzeKRwB',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/errno': '/home/amine/MyApp/node_modules/.bin/.errno-OtANJqT8',
+301 silly reify   '/home/amine/MyApp/node_modules/esbuild': '/home/amine/MyApp/node_modules/.esbuild-7HtWqcJM',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/esbuild': '/home/amine/MyApp/node_modules/.bin/.esbuild-oUlxtseh',
+301 silly reify   '/home/amine/MyApp/node_modules/esprima': '/home/amine/MyApp/node_modules/.esprima-vIRYKgKE',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/esparse': '/home/amine/MyApp/node_modules/.bin/.esparse-OkuqsHLV',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/esvalidate': '/home/amine/MyApp/node_modules/.bin/.esvalidate-8sj6HGlR',
+301 silly reify   '/home/amine/MyApp/node_modules/express/node_modules/ms': '/home/amine/MyApp/node_modules/express/node_modules/.ms-5rqaVQtU',
+301 silly reify   '/home/amine/MyApp/node_modules/finalhandler/node_modules/debug': '/home/amine/MyApp/node_modules/finalhandler/node_modules/.debug-JALJ69t4',
+301 silly reify   '/home/amine/MyApp/node_modules/finalhandler/node_modules/ms': '/home/amine/MyApp/node_modules/finalhandler/node_modules/.ms-TfbLcMju',
+301 silly reify   '/home/amine/MyApp/node_modules/finalhandler/node_modules/on-finished': '/home/amine/MyApp/node_modules/finalhandler/node_modules/.on-finished-p20w24of',
+301 silly reify   '/home/amine/MyApp/node_modules/hpack.js/node_modules/safe-buffer': '/home/amine/MyApp/node_modules/hpack.js/node_modules/.safe-buffer-JbTUKz1K',
+301 silly reify   '/home/amine/MyApp/node_modules/hpack.js/node_modules/string_decoder': '/home/amine/MyApp/node_modules/hpack.js/node_modules/.string_decoder-cmjJ9qvz',
+301 silly reify   '/home/amine/MyApp/node_modules/http-errors/node_modules/statuses': '/home/amine/MyApp/node_modules/http-errors/node_modules/.statuses-TPN7HEWu',
+301 silly reify   '/home/amine/MyApp/node_modules/image-size': '/home/amine/MyApp/node_modules/.image-size-pe2p1Cw6',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/image-size': '/home/amine/MyApp/node_modules/.bin/.image-size-ytme9vbE',
+301 silly reify   '/home/amine/MyApp/node_modules/is-docker': '/home/amine/MyApp/node_modules/.is-docker-yefQdZeS',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/is-docker': '/home/amine/MyApp/node_modules/.bin/.is-docker-Q4S6IBLY',
+301 silly reify   '/home/amine/MyApp/node_modules/isarray': '/home/amine/MyApp/node_modules/.isarray-rhklV09n',
+301 silly reify   '/home/amine/MyApp/node_modules/istanbul-lib-instrument/node_modules/semver': '/home/amine/MyApp/node_modules/istanbul-lib-instrument/node_modules/.semver-o6Wmo7EG',
+301 silly reify   '/home/amine/MyApp/node_modules/istanbul-lib-source-maps/node_modules/source-map': '/home/amine/MyApp/node_modules/istanbul-lib-source-maps/node_modules/.source-map-AEDEvru2',
+301 silly reify   '/home/amine/MyApp/node_modules/jest-worker/node_modules/has-flag': '/home/amine/MyApp/node_modules/jest-worker/node_modules/.has-flag-BB0yj3eC',
+301 silly reify   '/home/amine/MyApp/node_modules/js-yaml': '/home/amine/MyApp/node_modules/.js-yaml-zYjhUMsz',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/js-yaml': '/home/amine/MyApp/node_modules/.bin/.js-yaml-7oJatJHR',
+301 silly reify   '/home/amine/MyApp/node_modules/jsesc': '/home/amine/MyApp/node_modules/.jsesc-q6qclL62',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/jsesc': '/home/amine/MyApp/node_modules/.bin/.jsesc-VSsw2ejS',
+301 silly reify   '/home/amine/MyApp/node_modules/json5': '/home/amine/MyApp/node_modules/.json5-qqL8wWjY',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/json5': '/home/amine/MyApp/node_modules/.bin/.json5-EzqHi9HI',
+301 silly reify   '/home/amine/MyApp/node_modules/karma': '/home/amine/MyApp/node_modules/.karma-Bwx74sza',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/karma': '/home/amine/MyApp/node_modules/.bin/.karma-2YAX5rcZ',
+301 silly reify   '/home/amine/MyApp/node_modules/less': '/home/amine/MyApp/node_modules/.less-Eo89EpEC',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/lessc': '/home/amine/MyApp/node_modules/.bin/.lessc-By7pl78i',
+301 silly reify   '/home/amine/MyApp/node_modules/mime': '/home/amine/MyApp/node_modules/.mime-dEXpvSgI',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/mime': '/home/amine/MyApp/node_modules/.bin/.mime-fq8k3LYp',
+301 silly reify   '/home/amine/MyApp/node_modules/mkdirp': '/home/amine/MyApp/node_modules/.mkdirp-FIHCr0SQ',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/mkdirp': '/home/amine/MyApp/node_modules/.bin/.mkdirp-ptGZ8spR',
+301 silly reify   '/home/amine/MyApp/node_modules/multicast-dns': '/home/amine/MyApp/node_modules/.multicast-dns-fRRvuqIh',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/multicast-dns': '/home/amine/MyApp/node_modules/.bin/.multicast-dns-zXbt5A2a',
+301 silly reify   '/home/amine/MyApp/node_modules/nanoid': '/home/amine/MyApp/node_modules/.nanoid-uygRFPYu',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/nanoid': '/home/amine/MyApp/node_modules/.bin/.nanoid-jR3LnJ0n',
+301 silly reify   '/home/amine/MyApp/node_modules/needle': '/home/amine/MyApp/node_modules/.needle-thhXKtNQ',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/needle': '/home/amine/MyApp/node_modules/.bin/.needle-aLnKhIB9',
+301 silly reify   '/home/amine/MyApp/node_modules/node-gyp': '/home/amine/MyApp/node_modules/.node-gyp-1T8BTD8l',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp': '/home/amine/MyApp/node_modules/.bin/.node-gyp-PXJAHrR0',
+301 silly reify   '/home/amine/MyApp/node_modules/node-gyp-build': '/home/amine/MyApp/node_modules/.node-gyp-build-icXjkh2A',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp-build': '/home/amine/MyApp/node_modules/.bin/.node-gyp-build-ZVcu9yiB',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp-build-optional': '/home/amine/MyApp/node_modules/.bin/.node-gyp-build-optional-lreBCvqu',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/node-gyp-build-test': '/home/amine/MyApp/node_modules/.bin/.node-gyp-build-test-IgzcBPqN',
+301 silly reify   '/home/amine/MyApp/node_modules/nopt': '/home/amine/MyApp/node_modules/.nopt-bQF4htDL',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/nopt': '/home/amine/MyApp/node_modules/.bin/.nopt-yFHqP8vw',
+301 silly reify   '/home/amine/MyApp/node_modules/npm-packlist': '/home/amine/MyApp/node_modules/.npm-packlist-al0n1u2N',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/npm-packlist': '/home/amine/MyApp/node_modules/.bin/.npm-packlist-ZfbJdBIN',
+301 silly reify   '/home/amine/MyApp/node_modules/pacote': '/home/amine/MyApp/node_modules/.pacote-15Vu5v5S',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/pacote': '/home/amine/MyApp/node_modules/.bin/.pacote-ijODowHG',
+301 silly reify   '/home/amine/MyApp/node_modules/process-nextick-args': '/home/amine/MyApp/node_modules/.process-nextick-args-ii0fTUKW',
+301 silly reify   '/home/amine/MyApp/node_modules/regjsparser': '/home/amine/MyApp/node_modules/.regjsparser-1kLfjXb4',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/regjsparser': '/home/amine/MyApp/node_modules/.bin/.regjsparser-m3bbcfeK',
+301 silly reify   '/home/amine/MyApp/node_modules/resolve': '/home/amine/MyApp/node_modules/.resolve-VbOxORso',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/resolve': '/home/amine/MyApp/node_modules/.bin/.resolve-v9lpsMvO',
+301 silly reify   '/home/amine/MyApp/node_modules/rimraf': '/home/amine/MyApp/node_modules/.rimraf-1ulCa3rC',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/rimraf': '/home/amine/MyApp/node_modules/.bin/.rimraf-BNaFHz9y',
+301 silly reify   '/home/amine/MyApp/node_modules/sass': '/home/amine/MyApp/node_modules/.sass-hAnSSeSt',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/sass': '/home/amine/MyApp/node_modules/.bin/.sass-fD2gGqCI',
+301 silly reify   '/home/amine/MyApp/node_modules/schema-utils/node_modules/json-schema-traverse': '/home/amine/MyApp/node_modules/schema-utils/node_modules/.json-schema-traverse-dFSIk3wV',
+301 silly reify   '/home/amine/MyApp/node_modules/semver': '/home/amine/MyApp/node_modules/.semver-0ttWsqtu',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/semver': '/home/amine/MyApp/node_modules/.bin/.semver-YLCp8VjP',
+301 silly reify   '/home/amine/MyApp/node_modules/send/node_modules/debug/node_modules/ms': '/home/amine/MyApp/node_modules/send/node_modules/debug/node_modules/.ms-uhiqqFKe',
+301 silly reify   '/home/amine/MyApp/node_modules/serve-index/node_modules/inherits': '/home/amine/MyApp/node_modules/serve-index/node_modules/.inherits-HvIQdK5D',
+301 silly reify   '/home/amine/MyApp/node_modules/serve-index/node_modules/ms': '/home/amine/MyApp/node_modules/serve-index/node_modules/.ms-eynrJzKJ',
+301 silly reify   '/home/amine/MyApp/node_modules/serve-index/node_modules/setprototypeof': '/home/amine/MyApp/node_modules/serve-index/node_modules/.setprototypeof-5Lc9SpTo',
+301 silly reify   '/home/amine/MyApp/node_modules/serve-index/node_modules/depd': '/home/amine/MyApp/node_modules/serve-index/node_modules/.depd-SOlwuSWm',
+301 silly reify   '/home/amine/MyApp/node_modules/stylus': '/home/amine/MyApp/node_modules/.stylus-xWxf61ny',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/stylus': '/home/amine/MyApp/node_modules/.bin/.stylus-ocrXNNG7',
+301 silly reify   '/home/amine/MyApp/node_modules/terser': '/home/amine/MyApp/node_modules/.terser-ybW6ItuG',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/terser': '/home/amine/MyApp/node_modules/.bin/.terser-kYzn7yo5',
+301 silly reify   '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/ajv': '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/.ajv-FAcV4Lme',
+301 silly reify   '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/ajv-keywords': '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/.ajv-keywords-V67nZpZg',
+301 silly reify   '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/json-schema-traverse': '/home/amine/MyApp/node_modules/terser-webpack-plugin/node_modules/.json-schema-traverse-bZDYdGeG',
+301 silly reify   '/home/amine/MyApp/node_modules/tree-kill': '/home/amine/MyApp/node_modules/.tree-kill-aWRxHqrZ',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/tree-kill': '/home/amine/MyApp/node_modules/.bin/.tree-kill-vc9DBrnD',
+301 silly reify   '/home/amine/MyApp/node_modules/update-browserslist-db': '/home/amine/MyApp/node_modules/.update-browserslist-db-UfhSwQG5',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/browserslist-lint': '/home/amine/MyApp/node_modules/.bin/.browserslist-lint-RJIGQafX',
+301 silly reify   '/home/amine/MyApp/node_modules/uuid': '/home/amine/MyApp/node_modules/.uuid-XY4SKB3x',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/uuid': '/home/amine/MyApp/node_modules/.bin/.uuid-Y5ImcrqB',
+301 silly reify   '/home/amine/MyApp/node_modules/webpack-dev-server': '/home/amine/MyApp/node_modules/.webpack-dev-server-0yrIQgMh',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/webpack-dev-server': '/home/amine/MyApp/node_modules/.bin/.webpack-dev-server-MJAu9wK7',
+301 silly reify   '/home/amine/MyApp/node_modules/which': '/home/amine/MyApp/node_modules/.which-kWeOU6KZ',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/which': '/home/amine/MyApp/node_modules/.bin/.which-qnq1k5zx',
+301 silly reify   '/home/amine/MyApp/node_modules/@angular/cli': '/home/amine/MyApp/node_modules/@angular/.cli-0VA7s2Ex',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/ng': '/home/amine/MyApp/node_modules/.bin/.ng-AozZ10PY',
+301 silly reify   '/home/amine/MyApp/node_modules/@babel/parser': '/home/amine/MyApp/node_modules/@babel/.parser-ZHYPsL9f',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/parser': '/home/amine/MyApp/node_modules/.bin/.parser-8ZIUxeF4',
+301 silly reify   '/home/amine/MyApp/node_modules/@babel/traverse/node_modules/@jridgewell/gen-mapping': '/home/amine/MyApp/node_modules/@babel/traverse/node_modules/@jridgewell/.gen-mapping-LArVXVW0',
+301 silly reify   '/home/amine/MyApp/node_modules/@npmcli/git/node_modules/which': '/home/amine/MyApp/node_modules/@npmcli/git/node_modules/.which-H3448wVc',
+301 silly reify   '/home/amine/MyApp/node_modules/@npmcli/git/node_modules/.bin/node-which': '/home/amine/MyApp/node_modules/@npmcli/git/node_modules/.bin/.node-which-4YYZV4xJ',
+301 silly reify   '/home/amine/MyApp/node_modules/@npmcli/installed-package-contents': '/home/amine/MyApp/node_modules/@npmcli/.installed-package-contents-n47bWgsj',
+301 silly reify   '/home/amine/MyApp/node_modules/.bin/installed-package-contents': '/home/amine/MyApp/node_modules/.bin/.installed-package-contents-RAXTqZQo',
+301 silly reify   '/home/amine/MyApp/node_modules/@npmcli/run-script/node_modules/which': '/home/amine/MyApp/node_modules/@npmcli/run-script/node_modules/.which-uIdAGf8P',
+301 silly reify   '/home/amine/MyApp/node_modules/@npmcli/run-script/node_modules/.bin/node-which': '/home/amine/MyApp/node_modules/@npmcli/run-script/node_modules/.bin/.node-which-wba6XuwU',
+301 silly reify   '/home/amine/MyApp/node_modules/esbuild-wasm': '/home/amine/MyApp/node_modules/.esbuild-wasm-1VIRKpdc'
+301 silly reify }
+302 timing reify:retireShallow Completed in 23ms
+303 timing reify:createSparse Completed in 7ms
+304 timing reify:loadBundles Completed in 0ms
+305 silly audit bulk request {
+305 silly audit   rxjs: [ '7.5.7', '6.6.7' ],
+305 silly audit   tslib: [ '2.4.1', '1.14.1', '2.4.0' ],
+305 silly audit   abab: [ '2.0.6' ],
+305 silly audit   abbrev: [ '1.1.1' ],
+305 silly audit   accepts: [ '1.3.8' ],
+305 silly audit   acorn: [ '8.8.1' ],
+305 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+305 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+305 silly audit   'agent-base': [ '6.0.2' ],
+305 silly audit   agentkeepalive: [ '4.2.1' ],
+305 silly audit   depd: [ '1.1.2', '2.0.0' ],
+305 silly audit   'aggregate-error': [ '3.1.0' ],
+305 silly audit   ajv: [ '8.11.0', '6.12.6' ],
+305 silly audit   'ajv-formats': [ '2.1.1' ],
+305 silly audit   'ajv-keywords': [ '3.5.2' ],
+305 silly audit   'ansi-colors': [ '4.1.3' ],
+305 silly audit   'ansi-escapes': [ '4.3.2' ],
+305 silly audit   'ansi-html-community': [ '0.0.8' ],
+305 silly audit   'ansi-regex': [ '5.0.1' ],
+305 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+305 silly audit   anymatch: [ '3.1.2' ],
+305 silly audit   aproba: [ '2.0.0' ],
+305 silly audit   'are-we-there-yet': [ '3.0.1' ],
+305 silly audit   argparse: [ '1.0.10' ],
+305 silly audit   'array-flatten': [ '2.1.2' ],
+305 silly audit   autoprefixer: [ '10.4.13' ],
+305 silly audit   'babel-loader': [ '8.2.5' ],
+305 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+305 silly audit   'babel-plugin-polyfill-corejs2': [ '0.3.3' ],
+305 silly audit   'babel-plugin-polyfill-corejs3': [ '0.5.3' ],
+305 silly audit   'babel-plugin-polyfill-regenerator': [ '0.4.1' ],
+305 silly audit   'balanced-match': [ '1.0.2' ],
+305 silly audit   'base64-js': [ '1.5.1' ],
+305 silly audit   base64id: [ '2.0.0' ],
+305 silly audit   batch: [ '0.6.1' ],
+305 silly audit   'binary-extensions': [ '2.2.0' ],
+305 silly audit   bl: [ '4.1.0' ],
+305 silly audit   'body-parser': [ '1.20.1' ],
+305 silly audit   'bonjour-service': [ '1.0.14' ],
+305 silly audit   boolbase: [ '1.0.0' ],
+305 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+305 silly audit   braces: [ '3.0.2' ],
+305 silly audit   browserslist: [ '4.21.4' ],
+305 silly audit   buffer: [ '5.7.1' ],
+305 silly audit   'buffer-from': [ '1.1.2' ],
+305 silly audit   builtins: [ '5.0.1' ],
+305 silly audit   bytes: [ '3.1.2' ],
+305 silly audit   cacache: [ '16.1.2' ],
+305 silly audit   'call-bind': [ '1.0.2' ],
+305 silly audit   callsites: [ '3.1.0' ],
+305 silly audit   camelcase: [ '5.3.1' ],
+305 silly audit   'caniuse-lite': [ '1.0.30001431' ],
+305 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+305 silly audit   chardet: [ '0.7.0' ],
+305 silly audit   chokidar: [ '3.5.3' ],
+305 silly audit   chownr: [ '2.0.0' ],
+305 silly audit   'chrome-trace-event': [ '1.0.3' ],
+305 silly audit   'clean-stack': [ '2.2.0' ],
+305 silly audit   'cli-cursor': [ '3.1.0' ],
+305 silly audit   'cli-spinners': [ '2.7.0' ],
+305 silly audit   'cli-width': [ '3.0.0' ],
+305 silly audit   cliui: [ '7.0.4' ],
+305 silly audit   clone: [ '1.0.4' ],
+305 silly audit   'clone-deep': [ '4.0.1' ],
+305 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+305 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+305 silly audit   'color-support': [ '1.1.3' ],
+305 silly audit   colorette: [ '2.0.19' ],
+305 silly audit   commander: [ '2.20.3' ],
+305 silly audit   commondir: [ '1.0.1' ],
+305 silly audit   compressible: [ '2.0.18' ],
+305 silly audit   compression: [ '1.7.4' ],
+305 silly audit   'concat-map': [ '0.0.1' ],
+305 silly audit   connect: [ '3.7.0' ],
+305 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+305 silly audit   'console-control-strings': [ '1.1.0' ],
+305 silly audit   'content-disposition': [ '0.5.4' ],
+305 silly audit   'content-type': [ '1.0.4' ],
+305 silly audit   'convert-source-map': [ '1.9.0' ],
+305 silly audit   cookie: [ '0.4.2' ],
+305 silly audit   'cookie-signature': [ '1.0.6' ],
+305 silly audit   'copy-anything': [ '2.0.6' ],
+305 silly audit   'copy-webpack-plugin': [ '11.0.0' ],
+305 silly audit   'core-js-compat': [ '3.26.0' ],
+305 silly audit   cors: [ '2.8.5' ],
+305 silly audit   cosmiconfig: [ '7.1.0' ],
+305 silly audit   critters: [ '0.0.16' ],
+305 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+305 silly audit   'supports-color': [ '7.2.0', '5.5.0' ],
+305 silly audit   'cross-spawn': [ '7.0.3' ],
+305 silly audit   which: [ '2.0.2', '1.3.1' ],
+305 silly audit   'css-blank-pseudo': [ '3.0.3' ],
+305 silly audit   'css-has-pseudo': [ '3.0.4' ],
+305 silly audit   'css-loader': [ '6.7.1' ],
+305 silly audit   'css-prefers-color-scheme': [ '6.0.3' ],
+305 silly audit   'css-select': [ '4.3.0' ],
+305 silly audit   'css-what': [ '6.1.0' ],
+305 silly audit   cssdb: [ '7.1.0' ],
+305 silly audit   cssesc: [ '3.0.0' ],
+305 silly audit   'custom-event': [ '1.0.1' ],
+305 silly audit   'date-format': [ '4.0.14' ],
+305 silly audit   debug: [ '4.3.4', '2.6.9' ],
+305 silly audit   'default-gateway': [ '6.0.3' ],
+305 silly audit   defaults: [ '1.0.4' ],
+305 silly audit   'define-lazy-prop': [ '2.0.0' ],
+305 silly audit   delegates: [ '1.0.0' ],
+305 silly audit   'dependency-graph': [ '0.11.0' ],
+305 silly audit   destroy: [ '1.2.0' ],
+305 silly audit   'detect-node': [ '2.1.0' ],
+305 silly audit   di: [ '0.0.1' ],
+305 silly audit   'dir-glob': [ '3.0.1' ],
+305 silly audit   'dns-equal': [ '1.0.0' ],
+305 silly audit   'dns-packet': [ '5.4.0' ],
+305 silly audit   'dom-serialize': [ '2.2.1' ],
+305 silly audit   'dom-serializer': [ '1.4.1' ],
+305 silly audit   domelementtype: [ '2.3.0' ],
+305 silly audit   domhandler: [ '4.3.1' ],
+305 silly audit   domutils: [ '2.8.0' ],
+305 silly audit   'ee-first': [ '1.1.1' ],
+305 silly audit   'electron-to-chromium': [ '1.4.284' ],
+305 silly audit   'emoji-regex': [ '8.0.0' ],
+305 silly audit   encodeurl: [ '1.0.2' ],
+305 silly audit   encoding: [ '0.1.13' ],
+305 silly audit   'iconv-lite': [ '0.6.3', '0.4.24' ],
+305 silly audit   'engine.io': [ '6.2.0' ],
+305 silly audit   'engine.io-parser': [ '5.0.4' ],
+305 silly audit   'enhanced-resolve': [ '5.10.0' ],
+305 silly audit   ent: [ '2.2.0' ],
+305 silly audit   entities: [ '2.2.0' ],
+305 silly audit   'env-paths': [ '2.2.1' ],
+305 silly audit   'err-code': [ '2.0.3' ],
+305 silly audit   errno: [ '0.1.8' ],
+305 silly audit   'error-ex': [ '1.3.2' ],
+305 silly audit   'es-module-lexer': [ '0.9.3' ],
+305 silly audit   esbuild: [ '0.15.5' ],
+305 silly audit   escalade: [ '3.1.1' ],
+305 silly audit   'escape-html': [ '1.0.3' ],
+305 silly audit   'escape-string-regexp': [ '1.0.5' ],
+305 silly audit   'eslint-scope': [ '5.1.1' ],
+305 silly audit   esprima: [ '4.0.1' ],
+305 silly audit   esrecurse: [ '4.3.0' ],
+305 silly audit   estraverse: [ '4.3.0' ],
+305 silly audit   esutils: [ '2.0.3' ],
+305 silly audit   etag: [ '1.8.1' ],
+305 silly audit   'eventemitter-asyncresource': [ '1.0.0' ],
+305 silly audit   eventemitter3: [ '4.0.7' ],
+305 silly audit   events: [ '3.3.0' ],
+305 silly audit   execa: [ '5.1.1' ],
+305 silly audit   express: [ '4.18.2' ],
+305 silly audit   extend: [ '3.0.2' ],
+305 silly audit   'external-editor': [ '3.1.0' ],
+305 silly audit   'fast-deep-equal': [ '3.1.3' ],
+305 silly audit   'fast-glob': [ '3.2.12' ],
+305 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+305 silly audit   fastq: [ '1.13.0' ],
+305 silly audit   'faye-websocket': [ '0.11.4' ],
+305 silly audit   figures: [ '3.2.0' ],
+305 silly audit   'fill-range': [ '7.0.1' ],
+305 silly audit   finalhandler: [ '1.1.2' ],
+305 silly audit   'find-cache-dir': [ '3.3.2' ],
+305 silly audit   'find-up': [ '4.1.0' ],
+305 silly audit   flatted: [ '3.2.7' ],
+305 silly audit   'follow-redirects': [ '1.15.2' ],
+305 silly audit   forwarded: [ '0.2.0' ],
+305 silly audit   'fraction.js': [ '4.2.0' ],
+305 silly audit   fresh: [ '0.5.2' ],
+305 silly audit   'fs-extra': [ '8.1.0' ],
+305 silly audit   'fs-minipass': [ '2.1.0' ],
+305 silly audit   'fs-monkey': [ '1.0.3' ],
+305 silly audit   'fs.realpath': [ '1.0.0' ],
+305 silly audit   'function-bind': [ '1.1.1' ],
+305 silly audit   gauge: [ '4.0.4' ],
+305 silly audit   gensync: [ '1.0.0-beta.2' ],
+305 silly audit   'get-caller-file': [ '2.0.5' ],
+305 silly audit   'get-intrinsic': [ '1.1.3' ],
+305 silly audit   'get-package-type': [ '0.1.0' ],
+305 silly audit   'get-stream': [ '6.0.1' ],
+305 silly audit   glob: [ '8.0.3', '7.2.3' ],
+305 silly audit   'glob-parent': [ '5.1.2' ],
+305 silly audit   'glob-to-regexp': [ '0.4.1' ],
+305 silly audit   globals: [ '11.12.0' ],
+305 silly audit   globby: [ '13.1.2' ],
+305 silly audit   'graceful-fs': [ '4.2.10' ],
+305 silly audit   'handle-thing': [ '2.0.1' ],
+305 silly audit   has: [ '1.0.3' ],
+305 silly audit   'has-symbols': [ '1.0.3' ],
+305 silly audit   'has-unicode': [ '2.0.1' ],
+305 silly audit   'hdr-histogram-js': [ '2.0.3' ],
+305 silly audit   'hdr-histogram-percentiles-obj': [ '3.0.0' ],
+305 silly audit   'hosted-git-info': [ '5.2.1' ],
+305 silly audit   'hpack.js': [ '2.1.6' ],
+305 silly audit   'html-entities': [ '2.3.3' ],
+305 silly audit   'html-escaper': [ '2.0.2' ],
+305 silly audit   'http-cache-semantics': [ '4.1.0' ],
+305 silly audit   'http-deceiver': [ '1.2.7' ],
+305 silly audit   'http-errors': [ '2.0.0' ],
+305 silly audit   'http-parser-js': [ '0.5.8' ],
+305 silly audit   'http-proxy': [ '1.18.1' ],
+305 silly audit   'http-proxy-agent': [ '5.0.0' ],
+305 silly audit   'http-proxy-middleware': [ '2.0.6' ],
+305 silly audit   'https-proxy-agent': [ '5.0.1' ],
+305 silly audit   'human-signals': [ '2.1.0' ],
+305 silly audit   'humanize-ms': [ '1.2.1' ],
+305 silly audit   'icss-utils': [ '5.1.0' ],
+305 silly audit   ieee754: [ '1.2.1' ],
+305 silly audit   ignore: [ '5.2.0' ],
+305 silly audit   'ignore-walk': [ '5.0.1' ],
+305 silly audit   'image-size': [ '0.5.5' ],
+305 silly audit   immutable: [ '4.1.0' ],
+305 silly audit   'import-fresh': [ '3.3.0' ],
+305 silly audit   imurmurhash: [ '0.1.4' ],
+305 silly audit   'indent-string': [ '4.0.0' ],
+305 silly audit   'infer-owner': [ '1.0.4' ],
+305 silly audit   inflight: [ '1.0.6' ],
+305 silly audit   inherits: [ '2.0.4' ],
+305 silly audit   ini: [ '3.0.0' ],
+305 silly audit   inquirer: [ '8.2.4' ],
+305 silly audit   ip: [ '2.0.0' ],
+305 silly audit   'ipaddr.js': [ '2.0.1' ],
+305 silly audit   'is-arrayish': [ '0.2.1' ],
+305 silly audit   'is-binary-path': [ '2.1.0' ],
+305 silly audit   'is-core-module': [ '2.11.0' ],
+305 silly audit   'is-docker': [ '2.2.1' ],
+305 silly audit   'is-extglob': [ '2.1.1' ],
+305 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+305 silly audit   'is-glob': [ '4.0.3' ],
+305 silly audit   'is-interactive': [ '1.0.0' ],
+305 silly audit   'is-lambda': [ '1.0.1' ],
+305 silly audit   'is-number': [ '7.0.0' ],
+305 silly audit   'is-plain-obj': [ '3.0.0' ],
+305 silly audit   'is-plain-object': [ '2.0.4' ],
+305 silly audit   'is-stream': [ '2.0.1' ],
+305 silly audit   'is-unicode-supported': [ '0.1.0' ],
+305 silly audit   'is-what': [ '3.14.1' ],
+305 silly audit   'is-wsl': [ '2.2.0' ],
+305 silly audit   isbinaryfile: [ '4.0.10' ],
+305 silly audit   isexe: [ '2.0.0' ],
+305 silly audit   isobject: [ '3.0.1' ],
+305 silly audit   'istanbul-lib-coverage': [ '3.2.0' ],
+305 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+305 silly audit   'istanbul-lib-report': [ '3.0.0' ],
+305 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+305 silly audit   'istanbul-reports': [ '3.1.5' ],
+305 silly audit   'jasmine-core': [ '4.3.0' ],
+305 silly audit   'jest-worker': [ '27.5.1' ],
+305 silly audit   'js-tokens': [ '4.0.0' ],
+305 silly audit   'js-yaml': [ '3.14.1' ],
+305 silly audit   jsesc: [ '2.5.2' ],
+305 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+305 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+305 silly audit   json5: [ '2.2.1' ],
+305 silly audit   'jsonc-parser': [ '3.1.0' ],
+305 silly audit   jsonfile: [ '4.0.0' ],
+305 silly audit   jsonparse: [ '1.3.1' ],
+305 silly audit   karma: [ '6.4.1' ],
+305 silly audit   minimatch: [ '3.1.2', '5.1.0' ],
+305 silly audit   'karma-chrome-launcher': [ '3.1.1' ],
+305 silly audit   'karma-coverage': [ '2.2.0' ],
+305 silly audit   'karma-jasmine': [ '5.1.0' ],
+305 silly audit   'karma-jasmine-html-reporter': [ '2.0.0' ],
+305 silly audit   'karma-source-map-support': [ '1.4.0' ],
+305 silly audit   'kind-of': [ '6.0.3' ],
+305 silly audit   klona: [ '2.0.5' ],
+305 silly audit   less: [ '4.1.3' ],
+305 silly audit   'less-loader': [ '11.0.0' ],
+305 silly audit   'license-webpack-plugin': [ '4.0.2' ],
+305 silly audit   'lines-and-columns': [ '1.2.4' ],
+305 silly audit   'loader-runner': [ '4.3.0' ],
+305 silly audit   'locate-path': [ '5.0.0' ],
+305 silly audit   lodash: [ '4.17.21' ],
+305 silly audit   'lodash.debounce': [ '4.0.8' ],
+305 silly audit   'log-symbols': [ '4.1.0' ],
+305 silly audit   log4js: [ '6.7.0' ],
+305 silly audit   'lru-cache': [ '7.14.1', '6.0.0' ],
+305 silly audit   'magic-string': [ '0.26.2' ],
+305 silly audit   'make-fetch-happen': [ '10.2.1' ],
+305 silly audit   'media-typer': [ '0.3.0' ],
+305 silly audit   memfs: [ '3.4.10' ],
+305 silly audit   'merge-descriptors': [ '1.0.1' ],
+305 silly audit   'merge-stream': [ '2.0.0' ],
+305 silly audit   merge2: [ '1.4.1' ],
+305 silly audit   methods: [ '1.1.2' ],
+305 silly audit   micromatch: [ '4.0.5' ],
+305 silly audit   mime: [ '2.6.0' ],
+305 silly audit   'mime-db': [ '1.52.0' ],
+305 silly audit   'mime-types': [ '2.1.35' ],
+305 silly audit   'mimic-fn': [ '2.1.0' ],
+305 silly audit   'mini-css-extract-plugin': [ '2.6.1' ],
+305 silly audit   'minimalistic-assert': [ '1.0.1' ],
+305 silly audit   minimist: [ '1.2.7' ],
+305 silly audit   minipass: [ '3.3.4' ],
+305 silly audit   'minipass-collect': [ '1.0.2' ],
+305 silly audit   'minipass-fetch': [ '2.1.2' ],
+305 silly audit   'minipass-flush': [ '1.0.5' ],
+305 silly audit   'minipass-json-stream': [ '1.0.1' ],
+305 silly audit   'minipass-pipeline': [ '1.2.4' ],
+305 silly audit   'minipass-sized': [ '1.0.3' ],
+305 silly audit   minizlib: [ '2.1.2' ],
+305 silly audit   mkdirp: [ '1.0.4', '0.5.6' ],
+305 silly audit   ms: [ '2.1.2', '2.0.0' ],
+305 silly audit   'multicast-dns': [ '7.2.5' ],
+305 silly audit   'mute-stream': [ '0.0.8' ],
+305 silly audit   nanoid: [ '3.3.4' ],
+305 silly audit   needle: [ '3.1.0' ],
+305 silly audit   negotiator: [ '0.6.3' ],
+305 silly audit   'neo-async': [ '2.6.2' ],
+305 silly audit   'nice-napi': [ '1.0.2' ],
+305 silly audit   'node-addon-api': [ '3.2.1' ],
+305 silly audit   'node-forge': [ '1.3.1' ],
+305 silly audit   'node-gyp': [ '9.3.0' ],
+305 silly audit   'node-gyp-build': [ '4.5.0' ],
+305 silly audit   'node-releases': [ '2.0.6' ],
+305 silly audit   nopt: [ '6.0.0' ],
+305 silly audit   'normalize-package-data': [ '4.0.1' ],
+305 silly audit   'normalize-path': [ '3.0.0' ],
+305 silly audit   'normalize-range': [ '0.1.2' ],
+305 silly audit   'npm-bundled': [ '1.1.2', '2.0.1' ],
+305 silly audit   'npm-install-checks': [ '5.0.0' ],
+305 silly audit   'npm-normalize-package-bin': [ '1.0.1', '2.0.0' ],
+305 silly audit   'npm-package-arg': [ '9.1.0' ],
+305 silly audit   'npm-packlist': [ '5.1.3' ],
+305 silly audit   'npm-pick-manifest': [ '7.0.1' ],
+305 silly audit   'npm-registry-fetch': [ '13.3.1' ],
+305 silly audit   'npm-run-path': [ '4.0.1' ],
+305 silly audit   npmlog: [ '6.0.2' ],
+305 silly audit   'nth-check': [ '2.1.1' ],
+305 silly audit   'object-assign': [ '4.1.1' ],
+305 silly audit   'object-inspect': [ '1.12.2' ],
+305 silly audit   obuf: [ '1.1.2' ],
+305 silly audit   'on-finished': [ '2.4.1', '2.3.0' ],
+305 silly audit   'on-headers': [ '1.0.2' ],
+305 silly audit   once: [ '1.4.0' ],
+305 silly audit   onetime: [ '5.1.2' ],
+305 silly audit   open: [ '8.4.0' ],
+305 silly audit   ora: [ '5.4.1' ],
+305 silly audit   'os-tmpdir': [ '1.0.2' ],
+305 silly audit   'p-limit': [ '2.3.0' ],
+305 silly audit   'p-locate': [ '4.1.0' ],
+305 silly audit   'p-map': [ '4.0.0' ],
+305 silly audit   'p-retry': [ '4.6.2' ],
+305 silly audit   'p-try': [ '2.2.0' ],
+305 silly audit   pacote: [ '13.6.2' ],
+305 silly audit   pako: [ '1.0.11' ],
+305 silly audit   'parent-module': [ '1.0.1' ],
+305 silly audit   'parse-json': [ '5.2.0' ],
+305 silly audit   'parse-node-version': [ '1.0.1' ],
+305 silly audit   parse5: [ '6.0.1' ],
+305 silly audit   'parse5-html-rewriting-stream': [ '6.0.1' ],
+305 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+305 silly audit   'parse5-sax-parser': [ '6.0.1' ],
+305 silly audit   parseurl: [ '1.3.3' ],
+305 silly audit   'path-exists': [ '4.0.0' ],
+305 silly audit   'path-is-absolute': [ '1.0.1' ],
+305 silly audit   'path-key': [ '3.1.1' ],
+305 silly audit   'path-parse': [ '1.0.7' ],
+305 silly audit   'path-to-regexp': [ '0.1.7' ],
+305 silly audit   'path-type': [ '4.0.0' ],
+305 silly audit   picocolors: [ '1.0.0' ],
+305 silly audit   picomatch: [ '2.3.1' ],
+305 silly audit   pify: [ '2.3.0' ],
+305 silly audit   piscina: [ '3.2.0' ],
+305 silly audit   'pkg-dir': [ '4.2.0' ],
+305 silly audit   postcss: [ '8.4.16' ],
+305 silly audit   'postcss-attribute-case-insensitive': [ '5.0.2' ],
+305 silly audit   'postcss-clamp': [ '4.1.0' ],
+305 silly audit   'postcss-color-functional-notation': [ '4.2.4' ],
+305 silly audit   'postcss-color-hex-alpha': [ '8.0.4' ],
+305 silly audit   'postcss-color-rebeccapurple': [ '7.1.1' ],
+305 silly audit   'postcss-custom-media': [ '8.0.2' ],
+305 silly audit   'postcss-custom-properties': [ '12.1.10' ],
+305 silly audit   'postcss-custom-selectors': [ '6.0.3' ],
+305 silly audit   'postcss-dir-pseudo-class': [ '6.0.5' ],
+305 silly audit   'postcss-double-position-gradients': [ '3.1.2' ],
+305 silly audit   'postcss-env-function': [ '4.0.6' ],
+305 silly audit   'postcss-focus-visible': [ '6.0.4' ],
+305 silly audit   'postcss-focus-within': [ '5.0.4' ],
+305 silly audit   'postcss-font-variant': [ '5.0.0' ],
+305 silly audit   'postcss-gap-properties': [ '3.0.5' ],
+305 silly audit   'postcss-image-set-function': [ '4.0.7' ],
+305 silly audit   'postcss-import': [ '15.0.0' ],
+305 silly audit   'postcss-initial': [ '4.0.1' ],
+305 silly audit   'postcss-lab-function': [ '4.2.1' ],
+305 silly audit   'postcss-loader': [ '7.0.1' ],
+305 silly audit   'postcss-logical': [ '5.0.4' ],
+305 silly audit   'postcss-media-minmax': [ '5.0.0' ],
+305 silly audit   'postcss-modules-extract-imports': [ '3.0.0' ],
+305 silly audit   'postcss-modules-local-by-default': [ '4.0.0' ],
+305 silly audit   'postcss-modules-scope': [ '3.0.0' ],
+305 silly audit   'postcss-modules-values': [ '4.0.0' ],
+305 silly audit   'postcss-nesting': [ '10.2.0' ],
+305 silly audit   'postcss-opacity-percentage': [ '1.1.2' ],
+305 silly audit   'postcss-overflow-shorthand': [ '3.0.4' ],
+305 silly audit   'postcss-page-break': [ '3.0.4' ],
+305 silly audit   'postcss-place': [ '7.0.5' ],
+305 silly audit   'postcss-preset-env': [ '7.8.0' ],
+305 silly audit   'postcss-pseudo-class-any-link': [ '7.1.6' ],
+305 silly audit   'postcss-replace-overflow-wrap': [ '4.0.0' ],
+305 silly audit   'postcss-selector-not': [ '6.0.1' ],
+305 silly audit   'postcss-selector-parser': [ '6.0.10' ],
+305 silly audit   'postcss-value-parser': [ '4.2.0' ],
+305 silly audit   'pretty-bytes': [ '5.6.0' ],
+305 silly audit   'proc-log': [ '2.0.1' ],
+305 silly audit   'promise-inflight': [ '1.0.1' ],
+305 silly audit   'promise-retry': [ '2.0.1' ],
+305 silly audit   'proxy-addr': [ '2.0.7' ],
+305 silly audit   prr: [ '1.0.1' ],
+305 silly audit   punycode: [ '2.1.1' ],
+305 silly audit   qjobs: [ '1.2.0' ],
+305 silly audit   qs: [ '6.11.0' ],
+305 silly audit   'queue-microtask': [ '1.2.3' ],
+305 silly audit   randombytes: [ '2.1.0' ],
+305 silly audit   'range-parser': [ '1.2.1' ],
+305 silly audit   'raw-body': [ '2.5.1' ],
+305 silly audit   'read-cache': [ '1.0.0' ],
+305 silly audit   'read-package-json': [ '5.0.2' ],
+305 silly audit   'read-package-json-fast': [ '2.0.3' ],
+305 silly audit   'readable-stream': [ '3.6.0' ],
+305 silly audit   readdirp: [ '3.6.0' ],
+305 silly audit   'reflect-metadata': [ '0.1.13' ],
+305 silly audit   regenerate: [ '1.4.2' ],
+305 silly audit   'regenerate-unicode-properties': [ '10.1.0' ],
+305 silly audit   'regenerator-runtime': [ '0.13.9' ],
+305 silly audit   'regenerator-transform': [ '0.15.0' ],
+305 silly audit   'regex-parser': [ '2.2.11' ],
+305 silly audit   'regexpu-core': [ '5.2.1' ],
+305 silly audit   regjsgen: [ '0.7.1' ],
+305 silly audit   regjsparser: [ '0.9.1' ],
+305 silly audit   'require-directory': [ '2.1.1' ],
+305 silly audit   'require-from-string': [ '2.0.2' ],
+305 silly audit   'requires-port': [ '1.0.0' ],
+305 silly audit   resolve: [ '1.22.1' ],
+305 silly audit   'resolve-from': [ '5.0.0' ],
+305 silly audit   'resolve-url-loader': [ '5.0.0' ],
+305 silly audit   'restore-cursor': [ '3.1.0' ],
+305 silly audit   retry: [ '0.12.0' ],
+305 silly audit   reusify: [ '1.0.4' ],
+305 silly audit   rfdc: [ '1.3.0' ],
+305 silly audit   rimraf: [ '3.0.2' ],
+305 silly audit   'run-async': [ '2.4.1' ],
+305 silly audit   'run-parallel': [ '1.2.0' ],
+305 silly audit   'safe-buffer': [ '5.2.1' ],
+305 silly audit   'safer-buffer': [ '2.1.2' ],
+305 silly audit   sass: [ '1.54.4' ],
+305 silly audit   'sass-loader': [ '13.0.2' ],
+305 silly audit   sax: [ '1.2.4' ],
+305 silly audit   'schema-utils': [ '2.7.1', '3.1.1' ],
+305 silly audit   'select-hose': [ '2.0.0' ],
+305 silly audit   selfsigned: [ '2.1.1' ],
+305 silly audit   semver: [ '7.3.7', '6.3.0' ],
+305 silly audit   send: [ '0.18.0' ],
+305 silly audit   'serialize-javascript': [ '6.0.0' ],
+305 silly audit   'serve-index': [ '1.9.1' ],
+305 silly audit   'serve-static': [ '1.15.0' ],
+305 silly audit   'set-blocking': [ '2.0.0' ],
+305 silly audit   setprototypeof: [ '1.2.0' ],
+305 silly audit   'shallow-clone': [ '3.0.1' ],
+305 silly audit   'shebang-command': [ '2.0.0' ],
+305 silly audit   'shebang-regex': [ '3.0.0' ],
+305 silly audit   'side-channel': [ '1.0.4' ],
+305 silly audit   'signal-exit': [ '3.0.7' ],
+305 silly audit   slash: [ '4.0.0' ],
+305 silly audit   'smart-buffer': [ '4.2.0' ],
+305 silly audit   'socket.io': [ '4.5.3' ],
+305 silly audit   'socket.io-adapter': [ '2.4.0' ],
+305 silly audit   'socket.io-parser': [ '4.2.1' ],
+305 silly audit   sockjs: [ '0.3.24' ],
+305 silly audit   socks: [ '2.7.1' ],
+305 silly audit   'socks-proxy-agent': [ '7.0.0' ],
+305 silly audit   'source-map': [ '0.7.4', '0.6.1' ],
+305 silly audit   'source-map-js': [ '1.0.2' ],
+305 silly audit   'source-map-loader': [ '4.0.0' ],
+305 silly audit   'source-map-support': [ '0.5.21' ],
+305 silly audit   'sourcemap-codec': [ '1.4.8' ],
+305 silly audit   'spdx-correct': [ '3.1.1' ],
+305 silly audit   'spdx-exceptions': [ '2.3.0' ],
+305 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+305 silly audit   'spdx-license-ids': [ '3.0.12' ],
+305 silly audit   spdy: [ '4.0.2' ],
+305 silly audit   'spdy-transport': [ '3.0.0' ],
+305 silly audit   'sprintf-js': [ '1.0.3' ],
+305 silly audit   ssri: [ '9.0.1' ],
+305 silly audit   statuses: [ '1.5.0', '2.0.1' ],
+305 silly audit   streamroller: [ '3.1.3' ],
+305 silly audit   'string-width': [ '4.2.3' ],
+305 silly audit   string_decoder: [ '1.3.0' ],
+305 silly audit   'strip-ansi': [ '6.0.1' ],
+305 silly audit   'strip-final-newline': [ '2.0.0' ],
+305 silly audit   stylus: [ '0.59.0' ],
+305 silly audit   'stylus-loader': [ '7.0.0' ],
+305 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+305 silly audit   'symbol-observable': [ '4.0.0' ],
+305 silly audit   tapable: [ '2.2.1' ],
+305 silly audit   tar: [ '6.1.12' ],
+305 silly audit   terser: [ '5.14.2' ],
+305 silly audit   'terser-webpack-plugin': [ '5.3.6' ],
+305 silly audit   'test-exclude': [ '6.0.0' ],
+305 silly audit   'text-table': [ '0.2.0' ],
+305 silly audit   through: [ '2.3.8' ],
+305 silly audit   thunky: [ '1.1.0' ],
+305 silly audit   tmp: [ '0.0.33', '0.2.1' ],
+305 silly audit   'to-fast-properties': [ '2.0.0' ],
+305 silly audit   'to-regex-range': [ '5.0.1' ],
+305 silly audit   toidentifier: [ '1.0.1' ],
+305 silly audit   'tree-kill': [ '1.2.2' ],
+305 silly audit   'type-fest': [ '0.21.3' ],
+305 silly audit   'type-is': [ '1.6.18' ],
+305 silly audit   'typed-assert': [ '1.0.9' ],
+305 silly audit   'ua-parser-js': [ '0.7.32' ],
+305 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.0' ],
+305 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+305 silly audit   'unicode-match-property-value-ecmascript': [ '2.0.0' ],
+305 silly audit   'unicode-property-aliases-ecmascript': [ '2.1.0' ],
+305 silly audit   'unique-slug': [ '2.0.2' ],
+305 silly audit   universalify: [ '0.1.2' ],
+305 silly audit   unpipe: [ '1.0.0' ],
+305 silly audit   'update-browserslist-db': [ '1.0.10' ],
+305 silly audit   'uri-js': [ '4.4.1' ],
+305 silly audit   'util-deprecate': [ '1.0.2' ],
+305 silly audit   'utils-merge': [ '1.0.1' ],
+305 silly audit   uuid: [ '8.3.2' ],
+305 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+305 silly audit   'validate-npm-package-name': [ '4.0.0' ],
+305 silly audit   vary: [ '1.1.2' ],
+305 silly audit   'void-elements': [ '2.0.1' ],
+305 silly audit   watchpack: [ '2.4.0' ],
+305 silly audit   wbuf: [ '1.7.3' ],
+305 silly audit   wcwidth: [ '1.0.1' ],
+305 silly audit   'webpack-dev-middleware': [ '5.3.3' ],
+305 silly audit   'webpack-dev-server': [ '4.11.0' ],
+305 silly audit   'webpack-merge': [ '5.8.0' ],
+305 silly audit   'webpack-sources': [ '3.2.3' ],
+305 silly audit   'webpack-subresource-integrity': [ '5.1.0' ],
+305 silly audit   'websocket-driver': [ '0.7.4' ],
+305 silly audit   'websocket-extensions': [ '0.1.4' ],
+305 silly audit   'wide-align': [ '1.1.5' ],
+305 silly audit   wildcard: [ '2.0.0' ],
+305 silly audit   'wrap-ansi': [ '7.0.0' ],
+305 silly audit   wrappy: [ '1.0.2' ],
+305 silly audit   ws: [ '8.2.3' ],
+305 silly audit   y18n: [ '5.0.8' ],
+305 silly audit   yallist: [ '4.0.0' ],
+305 silly audit   yaml: [ '1.10.2' ],
+305 silly audit   yargs: [ '17.5.1', '16.2.0' ],
+305 silly audit   'yargs-parser': [ '21.1.1', '20.2.9' ],
+305 silly audit   '@adobe/css-tools': [ '4.0.1' ],
+305 silly audit   '@ampproject/remapping': [ '2.2.0' ],
+305 silly audit   '@angular/cli': [ '14.2.9' ],
+305 silly audit   '@angular/core': [ '14.2.10' ],
+305 silly audit   '@angular/forms': [ '14.2.10' ],
+305 silly audit   '@angular/platform-browser': [ '14.2.10' ],
+305 silly audit   '@angular/platform-browser-dynamic': [ '14.2.10' ],
+305 silly audit   '@angular/router': [ '14.2.10' ],
+305 silly audit   '@angular-devkit/architect': [ '0.1402.9' ],
+305 silly audit   '@angular-devkit/build-webpack': [ '0.1402.9' ],
+305 silly audit   '@angular-devkit/core': [ '14.2.9' ],
+305 silly audit   '@angular-devkit/schematics': [ '14.2.9' ],
+305 silly audit   '@assemblyscript/loader': [ '0.10.1' ],
+305 silly audit   '@babel/code-frame': [ '7.18.6' ],
+305 silly audit   '@babel/compat-data': [ '7.20.1' ],
+305 silly audit   '@babel/generator': [ '7.18.12' ],
+305 silly audit   '@babel/helper-annotate-as-pure': [ '7.18.6' ],
+305 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.18.9' ],
+305 silly audit   '@babel/helper-compilation-targets': [ '7.20.0' ],
+305 silly audit   '@babel/helper-create-class-features-plugin': [ '7.20.2' ],
+305 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.19.0' ],
+305 silly audit   '@babel/helper-define-polyfill-provider': [ '0.3.3' ],
+305 silly audit   '@babel/helper-environment-visitor': [ '7.18.9' ],
+305 silly audit   '@babel/helper-explode-assignable-expression': [ '7.18.6' ],
+305 silly audit   '@babel/helper-function-name': [ '7.19.0' ],
+305 silly audit   '@babel/helper-hoist-variables': [ '7.18.6' ],
+305 silly audit   '@babel/helper-member-expression-to-functions': [ '7.18.9' ],
+305 silly audit   '@babel/helper-module-imports': [ '7.18.6' ],
+305 silly audit   '@babel/helper-module-transforms': [ '7.20.2' ],
+305 silly audit   '@babel/helper-optimise-call-expression': [ '7.18.6' ],
+305 silly audit   '@babel/helper-plugin-utils': [ '7.20.2' ],
+305 silly audit   '@babel/helper-remap-async-to-generator': [ '7.18.9' ],
+305 silly audit   '@babel/helper-replace-supers': [ '7.19.1' ],
+305 silly audit   '@babel/helper-simple-access': [ '7.20.2' ],
+305 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.20.0' ],
+305 silly audit   '@babel/helper-split-export-declaration': [ '7.18.6' ],
+305 silly audit   '@babel/helper-string-parser': [ '7.19.4' ],
+305 silly audit   '@babel/helper-validator-identifier': [ '7.19.1' ],
+305 silly audit   '@babel/helper-validator-option': [ '7.18.6' ],
+305 silly audit   '@babel/helper-wrap-function': [ '7.19.0' ],
+305 silly audit   '@babel/helpers': [ '7.20.1' ],
+305 silly audit   '@babel/highlight': [ '7.18.6' ],
+305 silly audit   '@babel/parser': [ '7.20.3' ],
+305 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-proposal-async-generator-functions': [ '7.18.10' ],
+305 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-class-static-block': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-dynamic-import': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-export-namespace-from': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-proposal-json-strings': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-logical-assignment-operators': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-object-rest-spread': [ '7.20.2' ],
+305 silly audit   '@babel/plugin-proposal-optional-catch-binding': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-proposal-unicode-property-regex': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+305 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+305 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+305 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.20.0' ],
+305 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+305 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+305 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+305 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+305 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+305 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-block-scoping': [ '7.20.2' ],
+305 silly audit   '@babel/plugin-transform-classes': [ '7.20.2' ],
+305 silly audit   '@babel/plugin-transform-computed-properties': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-transform-destructuring': [ '7.20.2' ],
+305 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-for-of': [ '7.18.8' ],
+305 silly audit   '@babel/plugin-transform-function-name': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-transform-literals': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-modules-amd': [ '7.19.6' ],
+305 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.19.6' ],
+305 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.19.6' ],
+305 silly audit   '@babel/plugin-transform-modules-umd': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.19.1' ],
+305 silly audit   '@babel/plugin-transform-new-target': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-object-super': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-parameters': [ '7.20.3' ],
+305 silly audit   '@babel/plugin-transform-property-literals': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-regenerator': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-reserved-words': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-runtime': [ '7.18.10' ],
+305 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-spread': [ '7.19.0' ],
+305 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.18.6' ],
+305 silly audit   '@babel/plugin-transform-template-literals': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.18.9' ],
+305 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.18.10' ],
+305 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.18.6' ],
+305 silly audit   '@babel/preset-env': [ '7.18.10' ],
+305 silly audit   '@babel/preset-modules': [ '0.1.5' ],
+305 silly audit   '@babel/runtime': [ '7.18.9' ],
+305 silly audit   '@babel/template': [ '7.18.10' ],
+305 silly audit   '@babel/traverse': [ '7.20.1' ],
+305 silly audit   '@colors/colors': [ '1.5.0' ],
+305 silly audit   '@csstools/postcss-cascade-layers': [ '1.1.1' ],
+305 silly audit   '@csstools/postcss-color-function': [ '1.1.1' ],
+305 silly audit   '@csstools/postcss-font-format-keywords': [ '1.0.1' ],
+305 silly audit   '@csstools/postcss-hwb-function': [ '1.0.2' ],
+305 silly audit   '@csstools/postcss-ic-unit': [ '1.0.1' ],
+305 silly audit   '@csstools/postcss-is-pseudo-class': [ '2.0.7' ],
+305 silly audit   '@csstools/postcss-nested-calc': [ '1.0.0' ],
+305 silly audit   '@csstools/postcss-normalize-display-values': [ '1.0.1' ],
+305 silly audit   '@csstools/postcss-oklab-function': [ '1.1.1' ],
+305 silly audit   '@csstools/postcss-progressive-custom-properties': [ '1.3.0' ],
+305 silly audit   '@csstools/postcss-stepped-value-functions': [ '1.0.1' ],
+305 silly audit   '@csstools/postcss-text-decoration-shorthand': [ '1.0.0' ],
+305 silly audit   '@csstools/postcss-trigonometric-functions': [ '1.0.2' ],
+305 silly audit   '@csstools/postcss-unset-value': [ '1.0.2' ],
+305 silly audit   '@csstools/selector-specificity': [ '2.0.2' ],
+305 silly audit   '@discoveryjs/json-ext': [ '0.5.7' ],
+305 silly audit   '@gar/promisify': [ '1.1.3' ],
+305 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+305 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+305 silly audit   '@jridgewell/gen-mapping': [ '0.1.1' ],
+305 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+305 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+305 silly audit   '@jridgewell/source-map': [ '0.3.2' ],
+305 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.14' ],
+305 silly audit   '@jridgewell/trace-mapping': [ '0.3.17' ],
+305 silly audit   '@leichtgewicht/ip-codec': [ '2.0.4' ],
+305 silly audit   '@ngtools/webpack': [ '14.2.9' ],
+305 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+305 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+305 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+305 silly audit   '@npmcli/fs': [ '2.1.2' ],
+305 silly audit   '@npmcli/git': [ '3.0.2' ],
+305 silly audit   '@npmcli/installed-package-contents': [ '1.0.7' ],
+305 silly audit   '@npmcli/move-file': [ '2.0.1' ],
+305 silly audit   '@npmcli/node-gyp': [ '2.0.0' ],
+305 silly audit   '@npmcli/promise-spawn': [ '3.0.0' ],
+305 silly audit   '@npmcli/run-script': [ '4.2.1' ],
+305 silly audit   '@schematics/angular': [ '14.2.9' ],
+305 silly audit   '@socket.io/component-emitter': [ '3.1.0' ],
+305 silly audit   '@tootallnate/once': [ '2.0.0' ],
+305 silly audit   '@types/body-parser': [ '1.19.2' ],
+305 silly audit   '@types/bonjour': [ '3.5.10' ],
+305 silly audit   '@types/connect': [ '3.4.35' ],
+305 silly audit   '@types/connect-history-api-fallback': [ '1.3.5' ],
+305 silly audit   '@types/cookie': [ '0.4.1' ],
+305 silly audit   '@types/cors': [ '2.8.12' ],
+305 silly audit   '@types/eslint': [ '8.4.10' ],
+305 silly audit   '@types/eslint-scope': [ '3.7.4' ],
+305 silly audit   '@types/estree': [ '0.0.51' ],
+305 silly audit   '@types/express': [ '4.17.14' ],
+305 silly audit   '@types/express-serve-static-core': [ '4.17.31' ],
+305 silly audit   '@types/http-proxy': [ '1.17.9' ],
+305 silly audit   '@types/jasmine': [ '4.0.3' ],
+305 silly audit   '@types/json-schema': [ '7.0.11' ],
+305 silly audit   '@types/mime': [ '3.0.1' ],
+305 silly audit   '@types/node': [ '18.11.9' ],
+305 silly audit   '@types/parse-json': [ '4.0.0' ],
+305 silly audit   '@types/qs': [ '6.9.7' ],
+305 silly audit   '@types/range-parser': [ '1.2.4' ],
+305 silly audit   '@types/retry': [ '0.12.0' ],
+305 silly audit   '@types/serve-index': [ '1.9.1' ],
+305 silly audit   '@types/serve-static': [ '1.15.0' ],
+305 silly audit   '@types/sockjs': [ '0.3.33' ],
+305 silly audit   '@types/ws': [ '8.5.3' ],
+305 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+305 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+305 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+305 silly audit   '@xtuc/long': [ '4.2.2' ],
+305 silly audit   '@yarnpkg/lockfile': [ '1.1.0' ],
+305 silly audit   'esbuild-wasm': [ '0.15.5' ],
+305 silly audit   '@angular-devkit/build-angular': [ '14.2.9' ],
+305 silly audit   '@angular/compiler-cli': [ '14.2.10' ],
+305 silly audit   '@angular/compiler': [ '14.2.10' ],
+305 silly audit   typescript: [ '4.7.4' ],
+305 silly audit   '@angular/animations': [ '14.2.10' ],
+305 silly audit   '@angular/common': [ '14.2.10' ],
+305 silly audit   'zone.js': [ '0.11.8' ],
+305 silly audit   '@babel/core': [ '7.18.10' ],
+305 silly audit   'loader-utils': [ '3.2.0' ],
+305 silly audit   webpack: [ '5.74.0' ],
+305 silly audit   '@babel/types': [ '7.20.2' ],
+305 silly audit   'unique-filename': [ '1.1.1' ],
+305 silly audit   fsevents: [ '2.3.2' ],
+305 silly audit   'make-dir': [ '3.1.0' ]
+305 silly audit }
+306 verbose reify failed optional dependency /home/amine/MyApp/node_modules/chokidar/node_modules/fsevents
+307 silly reify mark deleted [ '/home/amine/MyApp/node_modules/chokidar/node_modules/fsevents' ]
+308 timing reifyNode:node_modules/chokidar/node_modules/fsevents Completed in 20ms
+309 silly tarball no local data for @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.18.10.tgz. Extracting by manifest.
+310 silly tarball no local data for @angular-devkit/build-angular@https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-14.2.9.tgz. Extracting by manifest.
+311 silly tarball no local data for @angular/compiler-cli@https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-14.2.10.tgz. Extracting by manifest.
+312 silly tarball no local data for @angular/compiler@https://registry.npmjs.org/@angular/compiler/-/compiler-14.2.10.tgz. Extracting by manifest.
+313 silly tarball no local data for @angular/common@https://registry.npmjs.org/@angular/common/-/common-14.2.10.tgz. Extracting by manifest.
+314 silly tarball no local data for @angular/animations@https://registry.npmjs.org/@angular/animations/-/animations-14.2.10.tgz. Extracting by manifest.
+315 silly tarball no local data for zone.js@https://registry.npmjs.org/zone.js/-/zone.js-0.11.8.tgz. Extracting by manifest.
+316 silly tarball no local data for webpack@https://registry.npmjs.org/webpack/-/webpack-5.74.0.tgz. Extracting by manifest.
+317 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz. Extracting by manifest.
+318 silly tarball no local data for loader-utils@https://registry.npmjs.org/loader-utils/-/loader-utils-3.2.0.tgz. Extracting by manifest.
+319 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz. Extracting by manifest.
+320 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz. Extracting by manifest.
+321 silly tarball no local data for tmp@https://registry.npmjs.org/tmp/-/tmp-0.2.1.tgz. Extracting by manifest.
+322 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+323 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz. Extracting by manifest.
+324 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+325 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.0.tgz. Extracting by manifest.
+326 silly tarball no local data for make-dir@https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz. Extracting by manifest.
+327 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.0.tgz. Extracting by manifest.
+328 silly tarball no local data for statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz. Extracting by manifest.
+329 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz. Extracting by manifest.
+330 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+331 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+332 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+333 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+334 silly tarball no local data for unique-filename@https://registry.npmjs.org/unique-filename/-/unique-filename-1.1.1.tgz. Extracting by manifest.
+335 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+336 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+337 silly tarball no local data for @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.20.2.tgz. Extracting by manifest.
+338 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.0.tgz. Extracting by manifest.
+339 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz. Extracting by manifest.
+340 silly tarball no local data for schema-utils@https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.1.tgz. Extracting by manifest.
+341 silly tarball no local data for json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz. Extracting by manifest.
+342 silly tarball no local data for ajv-keywords@https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz. Extracting by manifest.
+343 silly tarball no local data for ajv@https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz. Extracting by manifest.
+344 http fetch GET 200 https://registry.npmjs.org/@npmcli%2finstalled-package-contents 414ms (cache hit)
+345 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 434ms (cache hit)
+346 http fetch GET 200 https://registry.npmjs.org/regjsparser 447ms (cache hit)
+347 http fetch GET 200 https://registry.npmjs.org/npm-packlist 458ms (cache hit)
+348 http fetch GET 200 https://registry.npmjs.org/nopt 481ms (cache hit)
+349 http fetch GET 200 https://registry.npmjs.org/node-gyp-build 484ms (cache hit)
+350 http fetch GET 200 https://registry.npmjs.org/node-gyp 485ms (cache hit)
+351 http fetch GET 200 https://registry.npmjs.org/needle 508ms (cache hit)
+352 http fetch GET 200 https://registry.npmjs.org/nanoid 512ms (cache hit)
+353 http fetch GET 200 https://registry.npmjs.org/multicast-dns 515ms (cache hit)
+354 http fetch GET 200 https://registry.npmjs.org/js-yaml 533ms (cache hit)
+355 http fetch GET 200 https://registry.npmjs.org/is-docker 538ms (cache hit)
+356 http fetch GET 200 https://registry.npmjs.org/image-size 526ms (cache hit)
+357 http fetch GET 200 https://registry.npmjs.org/esprima 527ms (cache hit)
+358 http fetch GET 200 https://registry.npmjs.org/errno 527ms (cache hit)
+359 http fetch GET 200 https://registry.npmjs.org/cssesc 528ms (cache hit)
+360 http fetch GET 200 https://registry.npmjs.org/css-prefers-color-scheme 527ms (cache hit)
+361 http fetch GET 200 https://registry.npmjs.org/css-has-pseudo 528ms (cache hit)
+362 http fetch GET 200 https://registry.npmjs.org/css-blank-pseudo 530ms (cache hit)
+363 http fetch GET 200 https://registry.npmjs.org/color-support 531ms (cache hit)
+364 http fetch GET 200 https://registry.npmjs.org/autoprefixer 527ms (cache hit)
+365 http fetch GET 200 https://registry.npmjs.org/acorn 526ms (cache hit)
+366 http fetch GET 200 https://registry.npmjs.org/karma/-/karma-6.4.1.tgz 631ms (cache hit)
+367 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.3.7.tgz 643ms (cache hit)
+368 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 635ms (cache hit)
+369 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 696ms
+370 timing auditReport:getReport Completed in 718ms
+371 silly audit report {}
+372 timing auditReport:init Completed in 0ms
+373 timing reify:audit Completed in 719ms
+374 timing reifyNode:node_modules/mkdirp Completed in 753ms
+375 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz 343ms (cache hit)
+376 http fetch GET 200 https://registry.npmjs.org/regjsparser/-/regjsparser-0.9.1.tgz 326ms (cache hit)
+377 http fetch GET 200 https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.5.0.tgz 288ms (cache hit)
+378 http fetch GET 200 https://registry.npmjs.org/@npmcli/installed-package-contents/-/installed-package-contents-1.0.7.tgz 370ms (cache hit)
+379 http fetch GET 200 https://registry.npmjs.org/needle/-/needle-3.1.0.tgz 263ms (cache hit)
+380 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz 258ms (cache hit)
+381 http fetch GET 200 https://registry.npmjs.org/multicast-dns/-/multicast-dns-7.2.5.tgz 257ms (cache hit)
+382 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz 232ms (cache hit)
+383 http fetch GET 200 https://registry.npmjs.org/npm-packlist/-/npm-packlist-5.1.3.tgz 299ms (cache hit)
+384 http fetch GET 200 https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz 230ms (cache hit)
+385 http fetch GET 200 https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 228ms (cache hit)
+386 http fetch GET 200 https://registry.npmjs.org/errno/-/errno-0.1.8.tgz 227ms (cache hit)
+387 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 227ms (cache hit)
+388 http fetch GET 200 https://registry.npmjs.org/css-prefers-color-scheme/-/css-prefers-color-scheme-6.0.3.tgz 224ms (cache hit)
+389 http fetch GET 200 https://registry.npmjs.org/css-has-pseudo/-/css-has-pseudo-3.0.4.tgz 223ms (cache hit)
+390 http fetch GET 200 https://registry.npmjs.org/css-blank-pseudo/-/css-blank-pseudo-3.0.3.tgz 221ms (cache hit)
+391 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-6.0.0.tgz 301ms (cache hit)
+392 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.13.tgz 217ms (cache hit)
+393 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.8.1.tgz 215ms (cache hit)
+394 http fetch GET 200 https://registry.npmjs.org/node-gyp/-/node-gyp-9.3.0.tgz 297ms (cache hit)
+395 http fetch GET 200 https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz 241ms (cache hit)
+396 http fetch GET 200 https://registry.npmjs.org/color-support/-/color-support-1.1.3.tgz 224ms (cache hit)
+397 timing reifyNode:node_modules/update-browserslist-db Completed in 961ms
+398 timing reifyNode:node_modules/node-gyp-build Completed in 963ms
+399 timing reifyNode:node_modules/@npmcli/installed-package-contents Completed in 965ms
+400 timing reifyNode:node_modules/is-docker Completed in 971ms
+401 timing reifyNode:node_modules/color-support Completed in 971ms
+402 timing reifyNode:node_modules/npm-packlist Completed in 975ms
+403 timing reifyNode:node_modules/nopt Completed in 978ms
+404 timing reifyNode:node_modules/cssesc Completed in 982ms
+405 timing reifyNode:node_modules/regjsparser Completed in 988ms
+406 timing reifyNode:node_modules/multicast-dns Completed in 987ms
+407 timing reifyNode:node_modules/errno Completed in 988ms
+408 timing reifyNode:node_modules/image-size Completed in 1044ms
+409 timing reifyNode:node_modules/css-blank-pseudo Completed in 1058ms
+410 timing reifyNode:node_modules/css-prefers-color-scheme Completed in 1072ms
+411 timing reifyNode:node_modules/css-has-pseudo Completed in 1073ms
+412 timing reifyNode:node_modules/esprima Completed in 1079ms
+413 timing reifyNode:node_modules/nanoid Completed in 1094ms
+414 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 936ms (cache miss)
+415 timing reifyNode:node_modules/karma/node_modules/mkdirp Completed in 1119ms
+416 timing reifyNode:node_modules/acorn Completed in 1131ms
+417 timing reifyNode:node_modules/semver Completed in 1134ms
+418 timing reifyNode:node_modules/js-yaml Completed in 1224ms
+419 timing reifyNode:node_modules/needle Completed in 1233ms
+420 timing reifyNode:node_modules/autoprefixer Completed in 1259ms
+421 timing reifyNode:node_modules/karma Completed in 1283ms
+422 http fetch GET 200 https://registry.npmjs.org/@babel/core/-/core-7.18.10.tgz 1169ms (cache miss)
+423 timing reifyNode:node_modules/@babel/core Completed in 1291ms
+424 timing reifyNode:node_modules/node-gyp Completed in 1380ms
+425 http fetch GET 200 https://registry.npmjs.org/loader-utils/-/loader-utils-3.2.0.tgz 1300ms (cache miss)
+426 timing reifyNode:node_modules/loader-utils Completed in 1466ms
+427 http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.2.1.tgz 1358ms (cache miss)
+428 timing reifyNode:node_modules/karma/node_modules/tmp Completed in 1535ms
+429 http fetch GET 200 https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz 1824ms (cache miss)
+430 timing reifyNode:node_modules/istanbul-lib-report/node_modules/make-dir Completed in 2010ms
+431 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.0.tgz 1922ms (cache miss)
+432 timing reifyNode:node_modules/istanbul-lib-instrument/node_modules/semver Completed in 2112ms
+433 http fetch GET 200 https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-14.2.9.tgz 2130ms (cache miss)
+434 timing reifyNode:node_modules/@angular-devkit/build-angular Completed in 2263ms
+435 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz 2401ms (cache miss)
+436 timing reifyNode:node_modules/http-errors/node_modules/statuses Completed in 2592ms
+437 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 2401ms (cache miss)
+438 timing reifyNode:node_modules/finalhandler/node_modules/on-finished Completed in 2593ms
+439 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 3008ms (cache miss)
+440 timing reifyNode:node_modules/finalhandler/node_modules/ms Completed in 3202ms
+441 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 3121ms (cache miss)
+442 timing reifyNode:node_modules/istanbul-lib-source-maps/node_modules/source-map Completed in 3305ms
+443 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 3595ms (cache miss)
+444 timing reifyNode:node_modules/connect/node_modules/debug Completed in 3795ms
+445 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 4001ms (cache miss)
+446 timing reifyNode:node_modules/finalhandler/node_modules/debug Completed in 4197ms
+447 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 4175ms (cache miss)
+448 timing reifyNode:node_modules/karma/node_modules/yargs-parser Completed in 4352ms
+449 http fetch GET 200 https://registry.npmjs.org/unique-filename/-/unique-filename-1.1.1.tgz 4236ms (cache miss)
+450 timing reifyNode:node_modules/cacache/node_modules/unique-filename Completed in 4440ms
+451 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz 4323ms (cache miss)
+452 timing reifyNode:node_modules/karma/node_modules/yargs Completed in 4500ms
+453 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 4364ms (cache miss)
+454 timing reifyNode:node_modules/body-parser/node_modules/debug Completed in 4571ms
+455 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 4375ms (cache miss)
+456 timing reifyNode:node_modules/connect/node_modules/ms Completed in 4574ms
+457 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 4510ms (cache miss)
+458 timing reifyNode:node_modules/karma/node_modules/source-map Completed in 4692ms
+459 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.0.tgz 4612ms (cache miss)
+460 timing reifyNode:node_modules/@babel/core/node_modules/semver Completed in 4822ms
+461 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 4645ms (cache miss)
+462 timing reifyNode:node_modules/webpack/node_modules/json-schema-traverse Completed in 4876ms
+463 http fetch GET 200 https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.1.tgz 4673ms (cache miss)
+464 timing reifyNode:node_modules/webpack/node_modules/schema-utils Completed in 4886ms
+465 http fetch GET 200 https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-14.2.10.tgz 4810ms (cache miss)
+466 timing reifyNode:node_modules/@angular/compiler-cli Completed in 4948ms
+467 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.0.tgz 4787ms (cache miss)
+468 timing reifyNode:node_modules/istanbul-lib-report/node_modules/semver Completed in 4972ms
+469 http fetch GET 200 https://registry.npmjs.org/less 5252ms (cache revalidated)
+470 http fetch GET 200 https://registry.npmjs.org/esbuild-wasm 5260ms (cache revalidated)
+471 http fetch GET 200 https://registry.npmjs.org/less/-/less-4.1.3.tgz 45ms (cache hit)
+472 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 5311ms (cache revalidated)
+473 http fetch GET 200 https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz 5119ms (cache miss)
+474 timing reifyNode:node_modules/webpack/node_modules/ajv-keywords Completed in 5352ms
+475 http fetch GET 200 https://registry.npmjs.org/@angular%2fcli 5325ms (cache revalidated)
+476 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.20.3.tgz 46ms (cache hit)
+477 http fetch GET 200 https://registry.npmjs.org/@angular/cli/-/cli-14.2.9.tgz 49ms (cache hit)
+478 timing reifyNode:node_modules/@babel/parser Completed in 5476ms
+479 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz 5287ms (cache miss)
+480 timing reifyNode:node_modules/@angular-devkit/build-angular/node_modules/tslib Completed in 5500ms
+481 timing reifyNode:node_modules/@angular/cli Completed in 5674ms
+482 http fetch GET 200 https://registry.npmjs.org/which 5695ms (cache revalidated)
+483 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 5715ms (cache revalidated)
+484 http fetch GET 200 https://registry.npmjs.org/uuid 5749ms (cache revalidated)
+485 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.3.1.tgz 70ms (cache hit)
+486 http fetch GET 200 https://registry.npmjs.org/tree-kill 5779ms (cache revalidated)
+487 http fetch GET 200 https://registry.npmjs.org/terser 5781ms (cache revalidated)
+488 timing reifyNode:node_modules/which Completed in 5829ms
+489 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-4.11.0.tgz 70ms (cache hit)
+490 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 41ms (cache hit)
+491 http fetch GET 200 https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 33ms (cache hit)
+492 http fetch GET 200 https://registry.npmjs.org/terser/-/terser-5.14.2.tgz 31ms (cache hit)
+493 timing reifyNode:node_modules/tree-kill Completed in 5878ms
+494 timing reifyNode:node_modules/webpack-dev-server Completed in 5917ms
+495 timing reifyNode:node_modules/uuid Completed in 5917ms
+496 timing reifyNode:node_modules/less Completed in 5919ms
+497 timing reifyNode:node_modules/terser Completed in 5926ms
+498 http fetch GET 200 https://registry.npmjs.org/stylus 5968ms (cache revalidated)
+499 http fetch GET 200 https://registry.npmjs.org/stylus/-/stylus-0.59.0.tgz 28ms (cache hit)
+500 timing reifyNode:node_modules/stylus Completed in 6074ms
+501 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 5902ms (cache miss)
+502 timing reifyNode:node_modules/body-parser/node_modules/ms Completed in 6106ms
+503 http fetch GET 200 https://registry.npmjs.org/sass 6264ms (cache revalidated)
+504 http fetch GET 200 https://registry.npmjs.org/rimraf 6269ms (cache revalidated)
+505 http fetch GET 200 https://registry.npmjs.org/sass/-/sass-1.54.4.tgz 132ms (cache hit)
+506 http fetch GET 200 https://registry.npmjs.org/resolve 6404ms (cache revalidated)
+507 http fetch GET 200 https://registry.npmjs.org/pacote 6405ms (cache revalidated)
+508 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 144ms (cache hit)
+509 timing reifyNode:node_modules/rimraf Completed in 6470ms
+510 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz 21ms (cache hit)
+511 http fetch GET 200 https://registry.npmjs.org/pacote/-/pacote-13.6.2.tgz 18ms (cache hit)
+512 timing reifyNode:node_modules/pacote Completed in 6484ms
+513 timing reifyNode:node_modules/resolve Completed in 6523ms
+514 timing reifyNode:node_modules/sass Completed in 6531ms
+515 http fetch GET 200 https://registry.npmjs.org/json5 6499ms (cache revalidated)
+516 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.1.tgz 4ms (cache hit)
+517 timing reifyNode:node_modules/json5 Completed in 6564ms
+518 http fetch GET 200 https://registry.npmjs.org/esbuild 6801ms (cache revalidated)
+519 http fetch GET 200 https://registry.npmjs.org/browserslist 6808ms (cache revalidated)
+520 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.15.5.tgz 28ms (cache hit)
+521 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.21.4.tgz 20ms (cache hit)
+522 timing reifyNode:node_modules/esbuild Completed in 6915ms
+523 timing reifyNode:node_modules/browserslist Completed in 6915ms
+524 http fetch GET 200 https://registry.npmjs.org/ansi-html-community 6926ms (cache revalidated)
+525 http fetch GET 200 https://registry.npmjs.org/which 6910ms (cache revalidated)
+526 http fetch GET 200 https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz 6ms (cache hit)
+527 timing reifyNode:node_modules/ansi-html-community Completed in 7024ms
+528 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 10ms (cache hit)
+529 timing reifyNode:node_modules/@npmcli/run-script/node_modules/which Completed in 7031ms
+530 http fetch GET 200 https://registry.npmjs.org/which 7008ms (cache revalidated)
+531 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 10ms (cache hit)
+532 timing reifyNode:node_modules/@npmcli/git/node_modules/which Completed in 7131ms
+533 http fetch GET 200 https://registry.npmjs.org/mime 7103ms (cache revalidated)
+534 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-2.6.0.tgz 7ms (cache hit)
+535 timing reifyNode:node_modules/mime Completed in 7167ms
+536 http fetch GET 200 https://registry.npmjs.org/which 7319ms (cache revalidated)
+537 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 5ms (cache hit)
+538 timing reifyNode:node_modules/node-gyp/node_modules/which Completed in 7448ms
+539 http fetch GET 200 https://registry.npmjs.org/which 7339ms (cache revalidated)
+540 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 18ms (cache hit)
+541 timing reifyNode:node_modules/cross-spawn/node_modules/which Completed in 7473ms
+542 http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz 7366ms (cache miss)
+543 timing reifyNode:node_modules/webpack/node_modules/ajv Completed in 7600ms
+544 http fetch GET 200 https://registry.npmjs.org/jsesc 7662ms (cache revalidated)
+545 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-2.5.2.tgz 4ms (cache hit)
+546 timing reifyNode:node_modules/jsesc Completed in 7725ms
+547 http fetch GET 200 https://registry.npmjs.org/@babel/types/-/types-7.20.2.tgz 8582ms (cache miss)
+548 timing reifyNode:node_modules/@babel/core/node_modules/@babel/types Completed in 8791ms
+549 http fetch GET 200 https://registry.npmjs.org/@angular/animations/-/animations-14.2.10.tgz 9494ms (cache miss)
+550 timing reifyNode:node_modules/@angular/animations Completed in 9647ms
+551 http fetch GET 200 https://registry.npmjs.org/webpack/-/webpack-5.74.0.tgz 11368ms (cache miss)
+552 timing reifyNode:node_modules/webpack Completed in 11526ms
+553 http fetch GET 200 https://registry.npmjs.org/zone.js/-/zone.js-0.11.8.tgz 14626ms (cache miss)
+554 timing reifyNode:node_modules/zone.js Completed in 14782ms
+555 http fetch GET 200 https://registry.npmjs.org/@angular/compiler/-/compiler-14.2.10.tgz 22334ms (cache miss)
+556 timing reifyNode:node_modules/@angular/compiler Completed in 22481ms
+557 http fetch GET 200 https://registry.npmjs.org/@angular/common/-/common-14.2.10.tgz 24404ms (cache miss)
+558 timing reifyNode:node_modules/@angular/common Completed in 24554ms
+559 http fetch GET 200 https://registry.npmjs.org/esbuild-wasm/-/esbuild-wasm-0.15.5.tgz 30124ms (cache miss)
+560 timing reifyNode:node_modules/esbuild-wasm Completed in 35428ms
+561 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz 69137ms (cache miss)
+562 timing reifyNode:node_modules/typescript Completed in 69297ms
+563 timing reify:unpack Completed in 69302ms
+564 timing reify:unretire Completed in 107ms
+565 timing build:queue Completed in 33ms
+566 timing build:link:node_modules/esbuild-wasm Completed in 9ms
+567 timing build:link:node_modules/@babel/core/node_modules/semver Completed in 10ms
+568 timing build:link:node_modules/istanbul-lib-instrument/node_modules/semver Completed in 11ms
+569 timing build:link:node_modules/istanbul-lib-report/node_modules/semver Completed in 11ms
+570 timing build:link:node_modules/karma/node_modules/mkdirp Completed in 11ms
+571 timing build:link:node_modules/node-gyp/node_modules/which Completed in 11ms
+572 timing build:link:node_modules/@angular/cli Completed in 19ms
+573 timing build:link:node_modules/@angular/compiler-cli Completed in 15ms
+574 timing build:link:node_modules/@babel/parser Completed in 15ms
+575 timing build:link:node_modules/@npmcli/installed-package-contents Completed in 15ms
+576 timing build:link:node_modules/acorn Completed in 15ms
+577 timing build:link:node_modules/ansi-html-community Completed in 15ms
+578 timing build:link:node_modules/autoprefixer Completed in 15ms
+579 timing build:link:node_modules/browserslist Completed in 15ms
+580 timing build:link:node_modules/color-support Completed in 14ms
+581 timing build:link:node_modules/css-blank-pseudo Completed in 14ms
+582 timing build:link:node_modules/css-has-pseudo Completed in 14ms
+583 timing build:link:node_modules/css-prefers-color-scheme Completed in 14ms
+584 timing build:link:node_modules/cssesc Completed in 14ms
+585 timing build:link:node_modules/errno Completed in 14ms
+586 timing build:link:node_modules/esbuild Completed in 14ms
+587 timing build:link:node_modules/esprima Completed in 14ms
+588 timing build:link:node_modules/image-size Completed in 14ms
+589 timing build:link:node_modules/is-docker Completed in 14ms
+590 timing build:link:node_modules/js-yaml Completed in 14ms
+591 timing build:link:node_modules/jsesc Completed in 13ms
+592 timing build:link:node_modules/json5 Completed in 13ms
+593 timing build:link:node_modules/karma Completed in 13ms
+594 timing build:link:node_modules/less Completed in 13ms
+595 timing build:link:node_modules/mime Completed in 13ms
+596 timing build:link:node_modules/mkdirp Completed in 13ms
+597 timing build:link:node_modules/multicast-dns Completed in 13ms
+598 timing build:link:node_modules/nanoid Completed in 14ms
+599 timing build:link:node_modules/needle Completed in 14ms
+600 timing build:link:node_modules/node-gyp Completed in 14ms
+601 timing build:link:node_modules/node-gyp-build Completed in 14ms
+602 timing build:link:node_modules/nopt Completed in 14ms
+603 timing build:link:node_modules/npm-packlist Completed in 14ms
+604 timing build:link:node_modules/pacote Completed in 14ms
+605 timing build:link:node_modules/regjsparser Completed in 14ms
+606 timing build:link:node_modules/resolve Completed in 14ms
+607 timing build:link:node_modules/rimraf Completed in 14ms
+608 timing build:link:node_modules/sass Completed in 14ms
+609 timing build:link:node_modules/semver Completed in 13ms
+610 timing build:link:node_modules/stylus Completed in 13ms
+611 timing build:link:node_modules/terser Completed in 14ms
+612 timing build:link:node_modules/tree-kill Completed in 14ms
+613 timing build:link:node_modules/typescript Completed in 14ms
+614 timing build:link:node_modules/update-browserslist-db Completed in 14ms
+615 timing build:link:node_modules/uuid Completed in 14ms
+616 timing build:link:node_modules/webpack Completed in 14ms
+617 timing build:link:node_modules/webpack-dev-server Completed in 14ms
+618 timing build:link:node_modules/which Completed in 14ms
+619 timing build:link:node_modules/@npmcli/git/node_modules/which Completed in 14ms
+620 timing build:link:node_modules/@npmcli/run-script/node_modules/which Completed in 14ms
+621 timing build:link:node_modules/cross-spawn/node_modules/which Completed in 14ms
+622 timing build:link Completed in 21ms
+623 timing build:deps Completed in 54ms
+624 timing build Completed in 54ms
+625 timing reify:build Completed in 55ms
+626 timing reify:trash Completed in 158ms
+627 timing reify:save Completed in 188ms
+628 timing reify Completed in 86267ms
+629 silly CHANGE node_modules/esbuild-wasm
+630 silly CHANGE node_modules/@npmcli/run-script/node_modules/which
+631 silly CHANGE node_modules/@npmcli/installed-package-contents
+632 silly CHANGE node_modules/@npmcli/git/node_modules/which
+633 silly REMOVE node_modules/@babel/traverse/node_modules/@jridgewell/gen-mapping
+634 silly CHANGE node_modules/@babel/parser
+635 silly CHANGE node_modules/@angular/cli
+636 silly CHANGE node_modules/which
+637 silly CHANGE node_modules/webpack-dev-server
+638 silly CHANGE node_modules/uuid
+639 silly CHANGE node_modules/update-browserslist-db
+640 silly CHANGE node_modules/tree-kill
+641 silly REMOVE node_modules/terser-webpack-plugin/node_modules/json-schema-traverse
+642 silly REMOVE node_modules/terser-webpack-plugin/node_modules/ajv-keywords
+643 silly REMOVE node_modules/terser-webpack-plugin/node_modules/ajv
+644 silly CHANGE node_modules/terser
+645 silly CHANGE node_modules/stylus
+646 silly REMOVE node_modules/serve-index/node_modules/depd
+647 silly REMOVE node_modules/serve-index/node_modules/setprototypeof
+648 silly REMOVE node_modules/serve-index/node_modules/ms
+649 silly REMOVE node_modules/serve-index/node_modules/inherits
+650 silly REMOVE node_modules/send/node_modules/debug/node_modules/ms
+651 silly CHANGE node_modules/semver
+652 silly REMOVE node_modules/schema-utils/node_modules/json-schema-traverse
+653 silly CHANGE node_modules/sass
+654 silly CHANGE node_modules/rimraf
+655 silly CHANGE node_modules/resolve
+656 silly CHANGE node_modules/regjsparser
+657 silly REMOVE node_modules/process-nextick-args
+658 silly CHANGE node_modules/pacote
+659 silly CHANGE node_modules/npm-packlist
+660 silly CHANGE node_modules/nopt
+661 silly CHANGE node_modules/node-gyp-build
+662 silly CHANGE node_modules/node-gyp
+663 silly CHANGE node_modules/node-gyp/node_modules/which
+664 silly CHANGE node_modules/needle
+665 silly CHANGE node_modules/nanoid
+666 silly CHANGE node_modules/multicast-dns
+667 silly CHANGE node_modules/mkdirp
+668 silly CHANGE node_modules/mime
+669 silly CHANGE node_modules/less
+670 silly REMOVE node_modules/less/node_modules/semver
+671 silly REMOVE node_modules/less/node_modules/pify
+672 silly CHANGE node_modules/karma
+673 silly CHANGE node_modules/karma/node_modules/yargs-parser
+674 silly CHANGE node_modules/karma/node_modules/yargs
+675 silly CHANGE node_modules/karma/node_modules/tmp
+676 silly CHANGE node_modules/karma/node_modules/source-map
+677 silly CHANGE node_modules/karma/node_modules/mkdirp
+678 silly CHANGE node_modules/json5
+679 silly CHANGE node_modules/jsesc
+680 silly CHANGE node_modules/js-yaml
+681 silly REMOVE node_modules/jest-worker/node_modules/has-flag
+682 silly CHANGE node_modules/istanbul-lib-source-maps/node_modules/source-map
+683 silly ADD node_modules/istanbul-lib-report/node_modules/semver
+684 silly ADD node_modules/istanbul-lib-report/node_modules/make-dir
+685 silly CHANGE node_modules/istanbul-lib-instrument/node_modules/semver
+686 silly REMOVE node_modules/isarray
+687 silly CHANGE node_modules/is-docker
+688 silly CHANGE node_modules/image-size
+689 silly CHANGE node_modules/http-errors/node_modules/statuses
+690 silly REMOVE node_modules/hpack.js/node_modules/string_decoder
+691 silly REMOVE node_modules/hpack.js/node_modules/safe-buffer
+692 silly CHANGE node_modules/finalhandler/node_modules/on-finished
+693 silly CHANGE node_modules/finalhandler/node_modules/ms
+694 silly CHANGE node_modules/finalhandler/node_modules/debug
+695 silly REMOVE node_modules/express/node_modules/ms
+696 silly CHANGE node_modules/esprima
+697 silly CHANGE node_modules/esbuild
+698 silly CHANGE node_modules/errno
+699 silly REMOVE node_modules/emojis-list
+700 silly CHANGE node_modules/cssesc
+701 silly CHANGE node_modules/css-prefers-color-scheme
+702 silly CHANGE node_modules/css-has-pseudo
+703 silly CHANGE node_modules/css-blank-pseudo
+704 silly CHANGE node_modules/cross-spawn/node_modules/which
+705 silly REMOVE node_modules/core-util-is
+706 silly CHANGE node_modules/connect/node_modules/ms
+707 silly CHANGE node_modules/connect/node_modules/debug
+708 silly REMOVE node_modules/compression/node_modules/ms
+709 silly CHANGE node_modules/color-support
+710 silly ADD
+711 silly ADD node_modules/cacache/node_modules/unique-filename
+712 silly CHANGE node_modules/browserslist
+713 silly CHANGE node_modules/body-parser/node_modules/ms
+714 silly CHANGE node_modules/body-parser/node_modules/debug
+715 silly REMOVE node_modules/big.js
+716 silly CHANGE node_modules/autoprefixer
+717 silly CHANGE node_modules/ansi-html-community
+718 silly REMOVE node_modules/ajv-keywords
+719 silly CHANGE node_modules/acorn
+720 silly CHANGE node_modules/@babel/core
+721 silly ADD node_modules/@babel/core/node_modules/@babel/types
+722 silly CHANGE node_modules/@babel/core/node_modules/semver
+723 silly CHANGE node_modules/@angular-devkit/build-angular
+724 silly CHANGE node_modules/@angular-devkit/build-angular/node_modules/tslib
+725 silly CHANGE node_modules/@angular/compiler-cli
+726 silly CHANGE node_modules/@angular/compiler
+727 silly CHANGE node_modules/@angular/common
+728 silly CHANGE node_modules/@angular/animations
+729 silly CHANGE node_modules/zone.js
+730 silly CHANGE node_modules/webpack
+731 silly CHANGE node_modules/webpack/node_modules/schema-utils
+732 silly CHANGE node_modules/webpack/node_modules/json-schema-traverse
+733 silly CHANGE node_modules/webpack/node_modules/ajv-keywords
+734 silly CHANGE node_modules/webpack/node_modules/ajv
+735 silly REMOVE node_modules/unique-filename
+736 silly CHANGE node_modules/typescript
+737 silly REMOVE node_modules/make-dir/node_modules/semver
+738 silly CHANGE node_modules/loader-utils
+739 silly REMOVE node_modules/fsevents
+740 timing command:install Completed in 86277ms
+741 verbose exit 0
+742 timing npm Completed in 86328ms
+743 info ok
